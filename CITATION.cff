@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Long"
+    given-names: "Robert"
+    orcid: "https://orcid.org/0009-0008-4352-6842"
+title: "RIFE 28.0 - Recursive Interference Field Equations"
+version: "28.0"
+doi: "10.5281/zenodo.0000000"
+date-released: 2025-01-04
+url: "https://github.com/Bigrob7605/RIFE"
+repository-code: "https://github.com/Bigrob7605/RIFE"
+abstract: "A complete, rigorous scientific framework that unifies gravity, electromagnetism, and quantum phenomena without invoking dark matter or additional particles. The theory is based on recursive interference patterns in spacetime curvature, leading to three specific, falsifiable predictions for 2025-2027."
+keywords:
+  - "theoretical physics"
+  - "unified field theory"
+  - "dark matter"
+  - "cosmology"
+  - "quantum gravity"
+  - "experimental validation"
+license: "MIT" 

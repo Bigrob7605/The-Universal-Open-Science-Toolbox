@@ -1,0 +1,27 @@
+REMARK  Example Enzyme Structure
+REMARK  Generated for Universal Open Science Toolbox Demo
+TITLE     Example Enzyme Structure
+COMPND    MOL_ID: 1;
+COMPND   2 MOLECULE: Example Enzyme;
+COMPND   3 CHAIN: A;
+COMPND   4 EC: 3.1.1.-;
+SOURCE    MOL_ID: 1;
+SOURCE   2 ORGANISM_SCIENTIFIC: Example organism;
+KEYWDS    ENZYME, CATALYSIS, DEMO
+EXPDTA    THEORETICAL MODEL
+AUTHOR    Universal Open Science Toolbox
+ATOM      1  N   ALA A   1      27.462  11.336  49.655  1.00 20.00           N  
+ATOM      2  CA  ALA A   1      26.132  11.336  49.655  1.00 20.00           C  
+ATOM      3  C   ALA A   1      25.132  11.336  49.655  1.00 20.00           C  
+ATOM      4  O   ALA A   1      24.132  11.336  49.655  1.00 20.00           O  
+ATOM      5  N   SER A   2      25.132  12.336  49.655  1.00 20.00           N  
+ATOM      6  CA  SER A   2      24.132  12.336  49.655  1.00 20.00           C  
+ATOM      7  C   SER A   2      23.132  12.336  49.655  1.00 20.00           C  
+ATOM      8  O   SER A   2      22.132  12.336  49.655  1.00 20.00           O  
+ATOM      9  N   THR A   3      23.132  13.336  49.655  1.00 20.00           N  
+ATOM     10  CA  THR A   3      22.132  13.336  49.655  1.00 20.00           C  
+ATOM     11  C   THR A   3      21.132  13.336  49.655  1.00 20.00           C  
+ATOM     12  O   THR A   3      20.132  13.336  49.655  1.00 20.00           O  
+HELIX    1   1 ALA A    1  SER A    2  1                                   3
+SHEET   1 A 2 THR A    3  THR A    3  0
+END

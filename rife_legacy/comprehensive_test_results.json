@@ -1,0 +1,284 @@
+{
+  "pipeline_test": {
+    "ligo": {
+      "data_type": "ligo",
+      "signal_amplitude": 1e-21,
+      "snr": 0.9977314516953197,
+      "total_snr": 0.9878751110093097,
+      "systematic_error": 0.009977314516953198,
+      "detected": false,
+      "threshold": 5.0
+    },
+    "lsst": {
+      "data_type": "lsst",
+      "signal_amplitude": 0.001,
+      "snr": 0.9984210897182366,
+      "total_snr": 0.9885511861926296,
+      "systematic_error": 0.009984210897182367,
+      "detected": false,
+      "threshold": 5.0
+    },
+    "alma": {
+      "data_type": "alma",
+      "signal_amplitude": 1e-12,
+      "snr": 9.876471615263017e-13,
+      "total_snr": 9.87647161526292e-13,
+      "systematic_error": 9.876471615263017e-15,
+      "detected": false,
+      "threshold": 5.0
+    }
+  },
+  "blind_test": {
+    "sensitivity": 0.0,
+    "specificity": 1.0,
+    "false_positive_rate": 0.0,
+    "false_negative_rate": 1.0,
+    "total_trials": 100,
+    "true_positives": 0,
+    "false_positives": 0,
+    "true_negatives": 70,
+    "false_negatives": 30
+  },
+  "monte_carlo": {
+    "mean_snr": 0.25324560489086195,
+    "std_snr": 0.5005559654387833,
+    "mean_total_snr": 0.23943618384671247,
+    "std_total_snr": 0.4290046408172651,
+    "detection_rate": 0.002,
+    "n_simulations": 500
+  },
+  "stress_test": {
+    "seismic": [
+      {
+        "seismic_level": 0.01,
+        "base_snr": 10.0,
+        "degraded_snr": 9.900990099009901,
+        "detected": true,
+        "threshold": 5.0
+      },
+      {
+        "seismic_level": 0.05,
+        "base_snr": 10.0,
+        "degraded_snr": 9.523809523809524,
+        "detected": true,
+        "threshold": 5.0
+      },
+      {
+        "seismic_level": 0.1,
+        "base_snr": 10.0,
+        "degraded_snr": 9.09090909090909,
+        "detected": true,
+        "threshold": 5.0
+      },
+      {
+        "seismic_level": 0.2,
+        "base_snr": 10.0,
+        "degraded_snr": 8.333333333333334,
+        "detected": true,
+        "threshold": 5.0
+      },
+      {
+        "seismic_level": 0.5,
+        "base_snr": 10.0,
+        "degraded_snr": 6.666666666666667,
+        "detected": true,
+        "threshold": 5.0
+      },
+      {
+        "seismic_level": 1.0,
+        "base_snr": 10.0,
+        "degraded_snr": 5.0,
+        "detected": false,
+        "threshold": 5.0
+      },
+      {
+        "seismic_level": 2.0,
+        "base_snr": 10.0,
+        "degraded_snr": 3.3333333333333335,
+        "detected": false,
+        "threshold": 5.0
+      },
+      {
+        "seismic_level": 5.0,
+        "base_snr": 10.0,
+        "degraded_snr": 1.6666666666666667,
+        "detected": false,
+        "threshold": 5.0
+      },
+      {
+        "seismic_level": 10.0,
+        "base_snr": 10.0,
+        "degraded_snr": 0.9090909090909091,
+        "detected": false,
+        "threshold": 5.0
+      }
+    ],
+    "thermal": [
+      {
+        "thermal_level": 0.01,
+        "base_snr": 10.0,
+        "degraded_snr": 9.900990099009901,
+        "detected": true,
+        "threshold": 5.0
+      },
+      {
+        "thermal_level": 0.05,
+        "base_snr": 10.0,
+        "degraded_snr": 9.523809523809524,
+        "detected": true,
+        "threshold": 5.0
+      },
+      {
+        "thermal_level": 0.1,
+        "base_snr": 10.0,
+        "degraded_snr": 9.09090909090909,
+        "detected": true,
+        "threshold": 5.0
+      },
+      {
+        "thermal_level": 0.2,
+        "base_snr": 10.0,
+        "degraded_snr": 8.333333333333334,
+        "detected": true,
+        "threshold": 5.0
+      },
+      {
+        "thermal_level": 0.5,
+        "base_snr": 10.0,
+        "degraded_snr": 6.666666666666667,
+        "detected": true,
+        "threshold": 5.0
+      },
+      {
+        "thermal_level": 1.0,
+        "base_snr": 10.0,
+        "degraded_snr": 5.0,
+        "detected": false,
+        "threshold": 5.0
+      },
+      {
+        "thermal_level": 2.0,
+        "base_snr": 10.0,
+        "degraded_snr": 3.3333333333333335,
+        "detected": false,
+        "threshold": 5.0
+      },
+      {
+        "thermal_level": 5.0,
+        "base_snr": 10.0,
+        "degraded_snr": 1.6666666666666667,
+        "detected": false,
+        "threshold": 5.0
+      },
+      {
+        "thermal_level": 10.0,
+        "base_snr": 10.0,
+        "degraded_snr": 0.9090909090909091,
+        "detected": false,
+        "threshold": 5.0
+      }
+    ],
+    "calibration": [
+      {
+        "calibration_level": 0.01,
+        "base_snr": 10.0,
+        "degraded_snr": 9.900990099009901,
+        "detected": true,
+        "threshold": 5.0
+      },
+      {
+        "calibration_level": 0.05,
+        "base_snr": 10.0,
+        "degraded_snr": 9.523809523809524,
+        "detected": true,
+        "threshold": 5.0
+      },
+      {
+        "calibration_level": 0.1,
+        "base_snr": 10.0,
+        "degraded_snr": 9.09090909090909,
+        "detected": true,
+        "threshold": 5.0
+      },
+      {
+        "calibration_level": 0.2,
+        "base_snr": 10.0,
+        "degraded_snr": 8.333333333333334,
+        "detected": true,
+        "threshold": 5.0
+      },
+      {
+        "calibration_level": 0.5,
+        "base_snr": 10.0,
+        "degraded_snr": 6.666666666666667,
+        "detected": true,
+        "threshold": 5.0
+      },
+      {
+        "calibration_level": 1.0,
+        "base_snr": 10.0,
+        "degraded_snr": 5.0,
+        "detected": false,
+        "threshold": 5.0
+      },
+      {
+        "calibration_level": 2.0,
+        "base_snr": 10.0,
+        "degraded_snr": 3.3333333333333335,
+        "detected": false,
+        "threshold": 5.0
+      },
+      {
+        "calibration_level": 5.0,
+        "base_snr": 10.0,
+        "degraded_snr": 1.6666666666666667,
+        "detected": false,
+        "threshold": 5.0
+      },
+      {
+        "calibration_level": 10.0,
+        "base_snr": 10.0,
+        "degraded_snr": 0.9090909090909091,
+        "detected": false,
+        "threshold": 5.0
+      }
+    ]
+  },
+  "reproducibility": {
+    "reproducible": true,
+    "n_tests": 5,
+    "checksums_match": true,
+    "results": [
+      {
+        "snr": 0.1,
+        "data_checksum": "7f593f2711467d74a6b5592498802f23",
+        "data_length": 147456,
+        "timestamp": "2025-08-04T11:48:07.813125"
+      },
+      {
+        "snr": 0.1,
+        "data_checksum": "7f593f2711467d74a6b5592498802f23",
+        "data_length": 147456,
+        "timestamp": "2025-08-04T11:48:07.819015"
+      },
+      {
+        "snr": 0.1,
+        "data_checksum": "7f593f2711467d74a6b5592498802f23",
+        "data_length": 147456,
+        "timestamp": "2025-08-04T11:48:07.824509"
+      },
+      {
+        "snr": 0.1,
+        "data_checksum": "7f593f2711467d74a6b5592498802f23",
+        "data_length": 147456,
+        "timestamp": "2025-08-04T11:48:07.829882"
+      },
+      {
+        "snr": 0.1,
+        "data_checksum": "7f593f2711467d74a6b5592498802f23",
+        "data_length": 147456,
+        "timestamp": "2025-08-04T11:48:07.835302"
+      }
+    ]
+  }
+}

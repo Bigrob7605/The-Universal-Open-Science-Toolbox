@@ -1,0 +1,45 @@
+{
+  "gdi": {
+    "predicted_phase": 1e-06,
+    "measured_phase": 1.5696612605235163,
+    "snr": 6.027499240410303e+23,
+    "uncertainty": 2.6041666666666665e-24,
+    "systematics": {
+      "seismic": 0.01,
+      "thermal": 0.005,
+      "calibration": 0.02,
+      "environmental": 0.015
+    },
+    "total_systematic": 0.027386127875258306,
+    "falsified": "True"
+  },
+  "lsst": {
+    "predicted_shear": 7e-09,
+    "measured_shear": 0.028116205415642106,
+    "deviation": 0.028116195415642104,
+    "snr": 1.2167067701439749,
+    "systematics": {
+      "psf_error": 0.003,
+      "photo_z_bias": 0.02,
+      "intrinsic_alignment": 0.01,
+      "baryonic_effects": 0.005
+    },
+    "total_systematic": 0.023108440016582688,
+    "falsified": "True"
+  },
+  "turbulence": {
+    "velocity_dispersion": 10.191121139060225,
+    "intensity_fluctuations": 0.09208229782836724,
+    "cross_correlation": -0.07524008211839682,
+    "predicted_turbulence": 1e-12,
+    "snr": 98.29190038361895,
+    "systematics": {
+      "beam_smearing": 0.005,
+      "foreground_co": 0.01,
+      "calibration": 0.02,
+      "atmospheric": 0.015
+    },
+    "total_systematic": 0.027386127875258306,
+    "falsified": "True"
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "public_datasets": {
+    "iris": {
+      "dataset": "iris",
+      "data_shape": [
+        150,
+        5
+      ],
+      "signal": 5.843333333333335,
+      "noise": 0.8253012917851409,
+      "snr": 7.080242562924025,
+      "total_snr": 6.612090515917005,
+      "success": true
+    },
+    "titanic": {
+      "dataset": "titanic",
+      "data_shape": [
+        891,
+        13
+      ],
+      "signal": 446.0,
+      "noise": 257.20938292890224,
+      "snr": 1.7339958399701274,
+      "total_snr": 1.7044409055727467,
+      "success": true
+    },
+    "wine": {
+      "dataset": "wine",
+      "data_shape": [
+        177,
+        14
+      ],
+      "signal": 1.9435028248587571,
+      "noise": 0.7718018694575929,
+      "snr": 2.518136975004495,
+      "total_snr": 2.456284370070494,
+      "success": true
+    }
+  },
+  "messy_data": {
+    "missing_values": {
+      "variant": "missing_values",
+      "original_shape": [
+        1000,
+        5
+      ],
+      "messy_shape": [
+        1000,
+        5
+      ],
+      "clean_shape": [
+        574,
+        5
+      ],
+      "snr": -0.05704324265511246,
+      "success": true
+    },
+    "wrong_headers": {
+      "variant": "wrong_headers",
+      "original_shape": [
+        1000,
+        5
+      ],
+      "messy_shape": [
+        1000,
+        5
+      ],
+      "clean_shape": [
+        1000,
+        5
+      ],
+      "snr": -0.07935600384720776,
+      "success": true
+    },
+    "duplicate_rows": {
+      "variant": "duplicate_rows",
+      "original_shape": [
+        1000,
+        5
+      ],
+      "messy_shape": [
+        1500,
+        5
+      ],
+      "clean_shape": [
+        1500,
+        5
+      ],
+      "snr": -0.08526708960744495,
+      "success": true
+    },
+    "truncated": {
+      "variant": "truncated",
+      "original_shape": [
+        1000,
+        5
+      ],
+      "messy_shape": [
+        500,
+        5
+      ],
+      "clean_shape": [
+        500,
+        5
+      ],
+      "snr": -0.09734278960835788,
+      "success": true
+    },
+    "corrupted": {
+      "variant": "corrupted",
+      "original_shape": [
+        1000,
+        5
+      ],
+      "messy_shape": [
+        1000,
+        5
+      ],
+      "clean_shape": [
+        1000,
+        5
+      ],
+      "snr": 0.0,
+      "success": true
+    }
+  },
+  "data_volume": {
+    "1x": {
+      "size_multiplier": 1,
+      "data_shape": [
+        1000,
+        10
+      ],
+      "memory_usage_mb": 0.0762939453125,
+      "processing_time_seconds": 0.00021910667419433594,
+      "snr": -0.017010202455848836,
+      "total_snr": -0.017013096417993544,
+      "success": true
+    },
+    "10x": {
+      "size_multiplier": 10,
+      "data_shape": [
+        10000,
+        10
+      ],
+      "memory_usage_mb": 0.762939453125,
+      "processing_time_seconds": 0.001653432846069336,
+      "snr": -0.0030577002004729247,
+      "total_snr": -0.0030577936986369778,
+      "success": true
+    },
+    "50x": {
+      "size_multiplier": 50,
+      "data_shape": [
+        50000,
+        10
+      ],
+      "memory_usage_mb": 3.814697265625,
+      "processing_time_seconds": 0.00754857063293457,
+      "snr": 0.004993629210492295,
+      "total_snr": 0.004993379859617034,
+      "success": true
+    },
+    "100x": {
+      "size_multiplier": 100,
+      "data_shape": [
+        100000,
+        10
+      ],
+      "memory_usage_mb": 7.62939453125,
+      "processing_time_seconds": 0.015027284622192383,
+      "snr": 0.004946186045302843,
+      "total_snr": 0.004945941409839021,
+      "success": true
+    },
+    "200x": {
+      "size_multiplier": 200,
+      "data_shape": [
+        200000,
+        10
+      ],
+      "memory_usage_mb": 15.2587890625,
+      "processing_time_seconds": 0.02981734275817871,
+      "snr": 0.007236604070602187,
+      "total_snr": 0.007236080424111664,
+      "success": true
+    },
+    "500x": {
+      "size_multiplier": 500,
+      "data_shape": [
+        500000,
+        10
+      ],
+      "memory_usage_mb": 38.14697265625,
+      "processing_time_seconds": 0.07714962959289551,
+      "snr": -4.774918595978333e-05,
+      "total_snr": -4.7749208759641816e-05,
+      "success": true
+    }
+  },
+  "internet_download": {
+    "success": false,
+    "error": "No data file available"
+  },
+  "cross_python": {
+    "3.8": {
+      "success": true
+    },
+    "3.9": {
+      "success": true
+    },
+    "3.10": {
+      "success": true
+    },
+    "3.11": {
+      "success": true
+    },
+    "3.12": {
+      "success": true
+    }
+  },
+  "chaos_test": {
+    "seed_42": {
+      "seed": 42,
+      "signal": 0.01933205582232549,
+      "noise": 0.9787262077473543,
+      "snr": 0.019752261326301188,
+      "checksum": "df68c5f5bc0de24f74785cd07b6775fa",
+      "success": true
+    },
+    "seed_123": {
+      "seed": 123,
+      "signal": -0.03956413608079184,
+      "noise": 1.0007875375162334,
+      "snr": -0.03953300235830533,
+      "checksum": "d0ecda47957d21689e6acfb242760225",
+      "success": true
+    },
+    "seed_456": {
+      "seed": 456,
+      "signal": 0.0003007691784666129,
+      "noise": 0.989468968605406,
+      "snr": 0.00030397029923083697,
+      "checksum": "8b8d25a7ee840e79f8b84f0286646813",
+      "success": true
+    },
+    "seed_789": {
+      "seed": 789,
+      "signal": 0.01998701112599441,
+      "noise": 1.018823612822385,
+      "snr": 0.019617734487548444,
+      "checksum": "424f66350d264c79a0cf746f81bf5404",
+      "success": true
+    },
+    "seed_999": {
+      "seed": 999,
+      "signal": -0.01876842913804884,
+      "noise": 1.0328925341588755,
+      "snr": -0.018170747214600307,
+      "checksum": "1b2295375cac6bc61fa12e6f66ea4612",
+      "success": true
+    },
+    "floating_point_strict": {
+      "floating_point_test": "strict",
+      "signal": -0.0016522153076157266,
+      "noise": 1.0416297913085815,
+      "snr": -0.0015861828467291408,
+      "success": true
+    }
+  },
+  "jupyter_notebook": {
+    "notebook_test": {
+      "success": false,
+      "error": "[WinError 2] The system cannot find the file specified"
+    }
+  }
+}
