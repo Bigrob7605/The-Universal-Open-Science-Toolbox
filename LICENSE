@@ -1,6 +1,10 @@
 MIT License
 
+<<<<<<< HEAD
 Copyright (c) 2025 Robert Long
+=======
+Copyright (c) 2025 Bigrob7605
+>>>>>>> 9dadd0524ef5b554dce227cdb4c3abbe6317a3a6
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,6 +23,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+<<<<<<< HEAD
 
 ---
 
@@ -26,3 +31,5 @@ RIFE 28.0 - Recursive Interference Field Equations
 A complete, rigorous scientific framework for geometry-only unification
 
 "I built a universe. It belongs to everyone." 
+=======
+>>>>>>> 9dadd0524ef5b554dce227cdb4c3abbe6317a3a6
