@@ -348,6 +348,109 @@
             border-radius: 10px;
         }
 
+        .research-section {
+            padding: 6rem 2rem;
+            background: linear-gradient(135deg, #16213e 0%, #0f0f23 100%);
+        }
+
+        .research-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 3rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .research-card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 20px;
+            padding: 2rem;
+            border: 1px solid rgba(0,255,255,0.2);
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .research-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 60px rgba(0,255,255,0.3);
+            border-color: rgba(0,255,255,0.5);
+        }
+
+        .research-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .research-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: #00ffff;
+        }
+
+        .research-description {
+            color: #cccccc;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+
+        .research-link {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: linear-gradient(45deg, #00ffff, #0080ff);
+            color: #000;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 20px rgba(0,255,255,0.3);
+        }
+
+        .research-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0,255,255,0.5);
+        }
+
+        .contact-section {
+            padding: 6rem 2rem;
+            background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 100%);
+            text-align: center;
+        }
+
+        .contact-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .contact-title {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            color: #00ffff;
+        }
+
+        .contact-info {
+            background: rgba(255,255,255,0.05);
+            border-radius: 20px;
+            padding: 2rem;
+            border: 1px solid rgba(0,255,255,0.2);
+            margin-bottom: 2rem;
+        }
+
+        .contact-item {
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .contact-label {
+            color: #00ffff;
+            font-weight: 600;
+        }
+
+        .contact-value {
+            color: #ffffff;
+        }
+
         .footer {
             padding: 4rem 2rem;
             background: linear-gradient(135deg, #16213e 0%, #0f0f23 100%);
@@ -413,6 +516,10 @@
             
             .stats-grid {
                 grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .research-grid {
+                grid-template-columns: 1fr;
             }
         }
 
@@ -530,6 +637,39 @@
                     Guided setup and comprehensive help system.
                 </p>
                 <div class="feature-code">python cli_wizard.py --interactive</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Projects Section -->
+    <section class="research-section">
+        <h2 class="section-title">🧬 Research Projects</h2>
+        <div class="research-grid">
+            <div class="research-card">
+                <span class="research-icon">🔬</span>
+                <h3 class="research-title">Nanoplastics Investigation</h3>
+                <p class="research-description">
+                    Evidence-based analysis of environmental health research. Peer-reviewed studies confirm nanoplastics in human blood, placenta, and brain tissue. Health implications require urgent research funding.
+                </p>
+                <a href="https://bigrob7605.github.io/nanoplastics-investigation/" class="research-link">View Research</a>
+            </div>
+
+            <div class="research-card">
+                <span class="research-icon">🧬</span>
+                <h3 class="research-title">Next-Gen Enzyme Design</h3>
+                <p class="research-description">
+                    Open-source computational platform for nanoplastic degradation enzymes. Real experimental validation with PETase S238F Mutant (Ideonella sakaiensis) - 684 residues successfully validated.
+                </p>
+                <a href="https://bigrob7605.github.io/Next-Gen-Open-Enzyme-Design-Workflow/" class="research-link">Explore Workflow</a>
+            </div>
+
+            <div class="research-card">
+                <span class="research-icon">🚀</span>
+                <h3 class="research-title">VPT-101: The "Drug Bus"</h3>
+                <p class="research-description">
+                    Modular vault protein platform for targeted nanoplastic degradation. Open-source research framework accelerating global collaboration with FAST-PETase and MHETase enzyme payloads.
+                </p>
+                <a href="https://bigrob7605.github.io/VPT-101/" class="research-link">View Platform</a>
             </div>
         </div>
     </section>
@@ -661,6 +801,31 @@ Challenge URL: https://github.com/Bigrob7605/The-Universal-AGI-Open-Science-Tool
         </div>
     </section>
 
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="contact-content">
+            <h2 class="contact-title">👨‍🔬 Principal Investigator</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="contact-label">Email:</span>
+                    <span class="contact-value">screball7605@aol.com</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-label">ORCID:</span>
+                    <span class="contact-value">0009-0008-4352-6842</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-label">Research Focus:</span>
+                    <span class="contact-value">Environmental Health, Nanoplastics, Enzyme Design, Open Science</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-label">Collaboration:</span>
+                    <span class="contact-value">Direct research collaboration and academic partnerships welcome</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-content">
@@ -668,8 +833,9 @@ Challenge URL: https://github.com/Bigrob7605/The-Universal-AGI-Open-Science-Tool
             <div class="footer-links">
                 <a href="https://github.com/Bigrob7605/The-Universal-AGI-Open-Science-Toolbox" class="footer-link">GitHub Repository</a>
                 <a href="https://gitlab.com/bigrob7605-group/the-universal-open-science-toolbox" class="footer-link">GitLab Repository</a>
-                <a href="#features" class="footer-link">Documentation</a>
-                <a href="#demo" class="footer-link">Try Demo</a>
+                <a href="https://bigrob7605.github.io/nanoplastics-investigation/" class="footer-link">Nanoplastics Research</a>
+                <a href="https://bigrob7605.github.io/Next-Gen-Open-Enzyme-Design-Workflow/" class="footer-link">Enzyme Design</a>
+                <a href="https://bigrob7605.github.io/VPT-101/" class="footer-link">VPT-101 Platform</a>
             </div>
             <p class="copyright">
                 © 2025 Universal Open Science Toolbox v1.0.0 | "Truth is what survives."
