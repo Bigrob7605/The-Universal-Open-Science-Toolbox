@@ -1,0 +1,23 @@
+# Omega Kill Switch Package Requirements
+# For AGI System Integration
+
+# Core dependencies (minimal for security)
+# No external dependencies required - uses only Python standard library
+
+# Optional dependencies for enhanced functionality:
+# sqlite3 - Built into Python (for metrics database)
+# re - Built into Python (for pattern matching)
+# subprocess - Built into Python (for agent execution)
+# logging - Built into Python (for security logging)
+# time - Built into Python (for timing and metrics)
+# datetime - Built into Python (for timestamps)
+
+# Version requirements:
+# Python >= 3.8 (for type hints and modern features)
+# No external packages needed - designed for minimal dependencies
+
+# For AGI system integration, ensure:
+# - Python 3.8+ available
+# - Write permissions for metrics database
+# - Subprocess execution capabilities
+# - File system access for logging 

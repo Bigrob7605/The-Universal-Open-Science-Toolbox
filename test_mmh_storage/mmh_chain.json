@@ -1,0 +1,45 @@
+{
+  "genesis": "GENESIS_BLOCK",
+  "records": [
+    {
+      "mmh_id": "1e8f3d6360611112",
+      "timestamp": "2025-08-05T18:12:48.941798",
+      "verification_hash": "85366f80cf8a1c6da511ca6afb554937075b630e6dc5ae3e7e088e12fa6efc44"
+    },
+    {
+      "mmh_id": "340d53996ed75474",
+      "timestamp": "2025-08-05T18:12:48.963722",
+      "verification_hash": "11c1a6571e72ff7cc44ce59de017001358b80d046750e6cc39021130889f6f36"
+    },
+    {
+      "mmh_id": "3d4760a139bde478",
+      "timestamp": "2025-08-05T18:12:49.000372",
+      "verification_hash": "d0c68189754fbc7ac4f790d0c47eb1201c0b3b0740f43bb25428a03c4074d141"
+    },
+    {
+      "mmh_id": "882a3b8592bf262e",
+      "timestamp": "2025-08-05T18:12:49.006478",
+      "verification_hash": "fa3a4c0efcc4514754293c3b653d17b51df408f86ad5230821291d376b70c92f"
+    },
+    {
+      "mmh_id": "480ee431dfa8bb8a",
+      "timestamp": "2025-08-05T18:12:49.015506",
+      "verification_hash": "4e1cf0182ba1b01916572ff20ba666323d9f0e9b0e230198b5d90a09c65a8cd3"
+    },
+    {
+      "mmh_id": "2473dcc5bf70ad72",
+      "timestamp": "2025-08-05T18:12:49.017946",
+      "verification_hash": "c3ca82ebd844d6de23a106bbed76ccf252250de9d233cd535e73352e86af5e35"
+    },
+    {
+      "mmh_id": "898f93e347c8c508",
+      "timestamp": "2025-08-05T18:12:49.066995",
+      "verification_hash": "0621c099ae29792c931338badf9b9681565c72fe791a45bf41c3d5c2d8b77f14"
+    },
+    {
+      "mmh_id": "65ef9536832ccdb4",
+      "timestamp": "2025-08-05T18:12:49.070524",
+      "verification_hash": "6b5fab3735e4d10f2407ec6cf654793976399a228e20605626c8b1379545a24f"
+    }
+  ]
+}

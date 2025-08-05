@@ -1,0 +1,186 @@
+{
+  "7bfb2892957f3c99": {
+    "mmh_id": "7bfb2892957f3c99",
+    "timestamp": "2025-08-05T17:23:30.533379",
+    "record_type": "test_result",
+    "content_hash": "d74b8bece8d8fc87a17a15c93597d091c7f6ecafbf7bd711d3fb8badb31857c7",
+    "content_data": {
+      "test_name": "physics_gravity_test",
+      "input_data": {
+        "mass": 100,
+        "distance": 10
+      },
+      "parameters": {
+        "gravitational_constant": 6.6743e-11
+      },
+      "results": {
+        "force": 6.6743e-09
+      },
+      "environment": {
+        "python_version": "3.13.5",
+        "dependencies": [
+          "numpy",
+          "scipy"
+        ],
+        "random_seed": 42
+      }
+    },
+    "content_size": 199,
+    "signature": "c8ff6a5c6663eb3038937f4978b6d27b36e1af094d4fbaace896fb2a14ac9eef",
+    "verification_hash": "f75bef9b2efeb81f77212fceed98ab567a2434190ce68ab1dd0bb4588e94848f",
+    "chain_hash": "GENESIS",
+    "tags": [
+      "gravity",
+      "newton",
+      "force"
+    ],
+    "description": "Test of gravitational force calculation",
+    "author": "Kai Core System",
+    "version": "1.0.0",
+    "domain": "physics",
+    "test_name": "physics_gravity_test",
+    "reproducibility_score": 0.9999999999999999
+  },
+  "db54c90aac2e7e46": {
+    "mmh_id": "db54c90aac2e7e46",
+    "timestamp": "2025-08-05T17:23:30.556232",
+    "record_type": "test_result",
+    "content_hash": "c06badc95e48213cc0df09722e138d3b64a23e733e406b641ac6db39d6bf8878",
+    "content_data": {
+      "test_name": "climate_temperature_test",
+      "input_data": {
+        "temperature_data": [
+          20,
+          25,
+          30,
+          35
+        ]
+      },
+      "parameters": {
+        "analysis_method": "linear_regression"
+      },
+      "results": {
+        "trend": 5.0,
+        "r_squared": 0.95
+      },
+      "environment": {
+        "python_version": "3.13.5",
+        "dependencies": [
+          "pandas",
+          "scikit-learn"
+        ],
+        "random_seed": 123
+      }
+    },
+    "content_size": 222,
+    "signature": "39ff1b0c787418a65393f4bcca8828916c2c13f7cfaee4a4a750acdd3eece4ee",
+    "verification_hash": "55d2773e683bf627856abcba495a48b4cdbbedac2a6fec5adaa9747380c23bbe",
+    "chain_hash": "f75bef9b2efeb81f77212fceed98ab567a2434190ce68ab1dd0bb4588e94848f",
+    "tags": [
+      "temperature",
+      "trend",
+      "regression"
+    ],
+    "description": "Climate temperature trend analysis",
+    "author": "Kai Core System",
+    "version": "1.0.0",
+    "domain": "climate",
+    "test_name": "climate_temperature_test",
+    "reproducibility_score": 0.9999999999999999
+  },
+  "88e12059307d1b8b": {
+    "mmh_id": "88e12059307d1b8b",
+    "timestamp": "2025-08-05T17:23:30.623945",
+    "record_type": "test_result",
+    "content_hash": "8e869538c9559ab150ebf84b1dd8b63070f42f9aed9cd565bbb1377ba63029ba",
+    "content_data": {
+      "test_name": "biology_growth_test",
+      "input_data": {
+        "population": [
+          100,
+          120,
+          144,
+          173
+        ]
+      },
+      "parameters": {
+        "growth_rate": 0.2
+      },
+      "results": {
+        "final_population": 207,
+        "growth_factor": 1.2
+      },
+      "environment": {
+        "python_version": "3.13.5",
+        "dependencies": [
+          "matplotlib",
+          "numpy"
+        ],
+        "random_seed": 456
+      }
+    },
+    "content_size": 210,
+    "signature": "708652e22d003be1aba5542ce0985bbd0b469d922fd947eab714f324562d672c",
+    "verification_hash": "22db48e461b06598087c67f6faeefc1e7b5efec12ff50fdd0d7a0d58473c56cc",
+    "chain_hash": "55d2773e683bf627856abcba495a48b4cdbbedac2a6fec5adaa9747380c23bbe",
+    "tags": [
+      "population",
+      "growth",
+      "exponential"
+    ],
+    "description": "Population growth model test",
+    "author": "Kai Core System",
+    "version": "1.0.0",
+    "domain": "biology",
+    "test_name": "biology_growth_test",
+    "reproducibility_score": 0.9999999999999999
+  },
+  "643268e39a6d06e3": {
+    "mmh_id": "643268e39a6d06e3",
+    "timestamp": "2025-08-05T17:23:30.628686",
+    "record_type": "test_result",
+    "content_hash": "a5f1b9c1360032dfa1797ff495586d44e374acce80de7b2c626002082fe5cd3a",
+    "content_data": {
+      "test_name": "social_network_test",
+      "input_data": {
+        "nodes": 100,
+        "edges": 500
+      },
+      "parameters": {
+        "algorithm": "pagerank",
+        "iterations": 100
+      },
+      "results": {
+        "centrality_scores": [
+          0.1,
+          0.2,
+          0.3
+        ],
+        "convergence": true
+      },
+      "environment": {
+        "python_version": "3.13.5",
+        "dependencies": [
+          "networkx",
+          "numpy"
+        ],
+        "random_seed": 789
+      }
+    },
+    "content_size": 229,
+    "signature": "6637437b1f7a7eb5cb5c82d26c33184b773af894ee491868734e09bc09d9b2e4",
+    "verification_hash": "1091a74b73ef04dc1f761654b4fd683fc2832c10c2334f8d2079593449acd235",
+    "chain_hash": "22db48e461b06598087c67f6faeefc1e7b5efec12ff50fdd0d7a0d58473c56cc",
+    "tags": [
+      "network",
+      "pagerank",
+      "centrality"
+    ],
+    "description": "Social network centrality analysis",
+    "author": "Kai Core System",
+    "version": "1.0.0",
+    "domain": "social_science",
+    "test_name": "social_network_test",
+    "reproducibility_score": 0.9999999999999999
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "6ec6fccaf3472d98": {
+    "mmh_id": "6ec6fccaf3472d98",
+    "timestamp": "2025-08-05T17:27:32.828348",
+    "record_type": "test_result",
+    "content_hash": "7a9769ac43a54d1455ee236d3f8b3665671beb9ef1358343baded11fa250c625",
+    "content_data": {
+      "test_name": "quantum_entanglement_test",
+      "input_data": {
+        "particles": 2,
+        "distance": 1000
+      },
+      "parameters": {
+        "measurement_basis": "bell_state"
+      },
+      "results": {
+        "correlation": 0.99,
+        "entanglement_confirmed": true
+      },
+      "environment": {
+        "python_version": "3.13.5",
+        "dependencies": [
+          "numpy",
+          "qutip"
+        ],
+        "random_seed": 42
+      }
+    },
+    "content_size": 217,
+    "signature": "8f6514893ba8ec6c36f09d75493abab7dd2f832099c8de3f01c722c9a963c47d",
+    "verification_hash": "e2ea5d467d5f039d0356902e742b54e95cf084d671a5a45110c09120e2678588",
+    "chain_hash": "GENESIS",
+    "tags": [
+      "quantum",
+      "entanglement",
+      "bell_state"
+    ],
+    "description": "Quantum entanglement verification test",
+    "author": "Kai Core System",
+    "version": "1.0.0",
+    "domain": "physics",
+    "test_name": "quantum_entanglement_test",
+    "reproducibility_score": 0.9999999999999999
+  },
+  "8c7540b11649c027": {
+    "mmh_id": "8c7540b11649c027",
+    "timestamp": "2025-08-05T17:27:32.839211",
+    "record_type": "test_result",
+    "content_hash": "4b81fa16c78c6943e3d9ece9dedfc51e0fb5d3e4972e9010f4ae1737052a3669",
+    "content_data": {
+      "test_name": "global_warming_analysis",
+      "input_data": {
+        "temperature_data": [
+          14.0,
+          14.2,
+          14.5,
+          14.8,
+          15.1
+        ]
+      },
+      "parameters": {
+        "analysis_period": "5_years",
+        "method": "linear_trend"
+      },
+      "results": {
+        "trend": 0.275,
+        "confidence": 0.95,
+        "significant": true
+      },
+      "environment": {
+        "python_version": "3.13.5",
+        "dependencies": [
+          "pandas",
+          "scipy",
+          "matplotlib"
+        ],
+        "random_seed": 123
+      }
+    },
+    "content_size": 252,
+    "signature": "55e05b59f984f4e81fd4c3934fa357743ca73e7e5b5857fc0be1acc9c71248b8",
+    "verification_hash": "612684eaeac91b448197a92a029d98d5660c4a9170afe1c1590b3f5e97e6da73",
+    "chain_hash": "e2ea5d467d5f039d0356902e742b54e95cf084d671a5a45110c09120e2678588",
+    "tags": [
+      "global_warming",
+      "temperature",
+      "trend"
+    ],
+    "description": "Global temperature trend analysis",
+    "author": "Kai Core System",
+    "version": "1.0.0",
+    "domain": "climate",
+    "test_name": "global_warming_analysis",
+    "reproducibility_score": 0.9999999999999999
+  },
+  "750810d6ed9ab3d4": {
+    "mmh_id": "750810d6ed9ab3d4",
+    "timestamp": "2025-08-05T17:27:32.841029",
+    "record_type": "test_result",
+    "content_hash": "0ceecfe03f09f7aeb4ba096ed255fe093524f517a984d791ad16af4c2fda645f",
+    "content_data": {
+      "test_name": "dna_sequence_analysis",
+      "input_data": {
+        "sequence": "ATCGATCGATCG",
+        "length": 12
+      },
+      "parameters": {
+        "algorithm": "smith_waterman",
+        "gap_penalty": -2
+      },
+      "results": {
+        "similarity": 0.85,
+        "alignment_score": 8.5
+      },
+      "environment": {
+        "python_version": "3.13.5",
+        "dependencies": [
+          "biopython",
+          "numpy"
+        ],
+        "random_seed": 456
+      }
+    },
+    "content_size": 237,
+    "signature": "13a2b0cf774b462fc4b1f814841c582db4bb0e84769fbe7cd49c765139bee266",
+    "verification_hash": "57a199fd8fb0dfd08d5232b1805dc57f3dca80e4094ffb504d233b52ff69a744",
+    "chain_hash": "612684eaeac91b448197a92a029d98d5660c4a9170afe1c1590b3f5e97e6da73",
+    "tags": [
+      "dna",
+      "sequence",
+      "alignment"
+    ],
+    "description": "DNA sequence alignment analysis",
+    "author": "Kai Core System",
+    "version": "1.0.0",
+    "domain": "biology",
+    "test_name": "dna_sequence_analysis",
+    "reproducibility_score": 0.9999999999999999
+  }
+}

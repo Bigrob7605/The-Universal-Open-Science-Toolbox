@@ -1,0 +1,3682 @@
+[
+  {
+    "hash": "439c333652d448ee",
+    "timestamp": "2025-08-04T21:12:10.931444",
+    "result": {
+      "overall_truth_table": {
+        "batch_timestamp": "2025-08-04T17:12:10.931299",
+        "tests_run": [],
+        "overall_pass_rate": 0.0,
+        "individual_results": {}
+      }
+    },
+    "previous_hash": "GENESIS",
+    "version": "1.0.0"
+  },
+  {
+    "hash": "fb6d05cc4abfbb9b",
+    "timestamp": "2025-08-04T21:13:46.749668",
+    "result": {
+      "overall_truth_table": {
+        "batch_timestamp": "2025-08-04T17:13:46.749592",
+        "tests_run": [],
+        "overall_pass_rate": 0.0,
+        "individual_results": {}
+      }
+    },
+    "previous_hash": "439c333652d448ee",
+    "version": "1.0.0"
+  },
+  {
+    "hash": "ac1899333d4cb5db",
+    "timestamp": "2025-08-04T21:14:37.041786",
+    "result": {
+      "overall_truth_table": {
+        "batch_timestamp": "2025-08-04T17:14:37.041708",
+        "tests_run": [],
+        "overall_pass_rate": 0.0,
+        "individual_results": {}
+      }
+    },
+    "previous_hash": "fb6d05cc4abfbb9b",
+    "version": "1.0.0"
+  },
+  {
+    "hash": "83cb407019a76f0a",
+    "timestamp": "2025-08-04T21:26:22.407494",
+    "result": {
+      "overall_truth_table": {
+        "batch_timestamp": "2025-08-04T17:26:22.407391",
+        "tests_run": [],
+        "overall_pass_rate": 0.0,
+        "individual_results": {}
+      }
+    },
+    "previous_hash": "ac1899333d4cb5db",
+    "version": "1.0.0"
+  },
+  {
+    "hash": "fc36118dc16efcf6",
+    "timestamp": "2025-08-04T22:12:44.326797",
+    "result": {
+      "overall_truth_table": {
+        "batch_timestamp": "2025-08-04T18:12:44.326525",
+        "tests_run": [],
+        "overall_pass_rate": 0.0,
+        "individual_results": {}
+      }
+    },
+    "previous_hash": "83cb407019a76f0a",
+    "version": "1.0.0"
+  },
+  {
+    "hash": "e1df53648af4d101",
+    "timestamp": "2025-08-04T22:24:33.397535",
+    "result": {
+      "overall_truth_table": {
+        "batch_timestamp": "2025-08-04T18:24:33.397454",
+        "tests_run": [],
+        "overall_pass_rate": 0.0,
+        "individual_results": {}
+      }
+    },
+    "previous_hash": "fc36118dc16efcf6",
+    "version": "1.0.0"
+  },
+  {
+    "hash": "3e07419ddc2e435a",
+    "timestamp": "2025-08-04T22:28:27.099479",
+    "result": {
+      "overall_truth_table": {
+        "batch_timestamp": "2025-08-04T18:28:27.099372",
+        "tests_run": [],
+        "overall_pass_rate": 0.0,
+        "individual_results": {}
+      }
+    },
+    "previous_hash": "e1df53648af4d101",
+    "version": "1.0.0"
+  },
+  {
+    "hash": "3de98cd50d7a5ed3",
+    "timestamp": "2025-08-04T22:52:12.352465",
+    "result": {
+      "overall_truth_table": {
+        "batch_timestamp": "2025-08-04T18:52:12.352392",
+        "tests_run": [],
+        "overall_pass_rate": 0.0,
+        "individual_results": {}
+      }
+    },
+    "previous_hash": "3e07419ddc2e435a",
+    "version": "1.0.0"
+  },
+  {
+    "hash": "e0645027693216c0",
+    "timestamp": "2025-08-05T16:29:27.294404",
+    "result": {
+      "overall_truth_table": {
+        "batch_timestamp": "2025-08-05T12:29:27.294317",
+        "tests_run": [],
+        "overall_pass_rate": 0.0,
+        "individual_results": {}
+      }
+    },
+    "previous_hash": "3de98cd50d7a5ed3",
+    "version": "1.0.0"
+  },
+  {
+    "hash": "51962b32a1084cc5",
+    "timestamp": "2025-08-05T16:32:30.054784",
+    "result": {
+      "basic_statistical_analysis": {
+        "test_name": "basic_statistical_analysis",
+        "result": {
+          "test_name": "basic_statistical_analysis",
+          "timestamp": "2025-08-05T12:32:28.572028",
+          "pass_fail": {
+            "data_loaded": true,
+            "has_sufficient_data": true,
+            "no_extreme_outliers": true,
+            "statistical_analysis_complete": true
+          },
+          "metrics": {
+            "mean": [
+              -0.1290377914660253,
+              0.08273931264193311,
+              0.08421173187566496
+            ],
+            "std": [
+              1.0502559395275575,
+              0.8803136370297587,
+              0.896210570076908
+            ],
+            "median": [
+              -0.2568804975886666,
+              0.060148268877521414,
+              0.07697953766565299
+            ],
+            "shape": [
+              100,
+              3
+            ],
+            "normality_tests": [
+              {
+                "column": 0,
+                "statistic": 0.21310909851029494,
+                "p_value": 0.8989260110794384,
+                "is_normal": true
+              },
+              {
+                "column": 1,
+                "statistic": 1.6231152634170325,
+                "p_value": 0.44416568057411354,
+                "is_normal": true
+              },
+              {
+                "column": 2,
+                "statistic": 0.6479131384791672,
+                "p_value": 0.7232816543699586,
+                "is_normal": true
+              }
+            ],
+            "outlier_analysis": [
+              {
+                "column": 0,
+                "outliers": 0,
+                "outlier_percentage": 0.0
+              },
+              {
+                "column": 1,
+                "outliers": 0,
+                "outlier_percentage": 0.0
+              },
+              {
+                "column": 2,
+                "outliers": 0,
+                "outlier_percentage": 0.0
+              }
+            ]
+          },
+          "evidence": {
+            "raw_data_shape": [
+              100,
+              3
+            ],
+            "data_summary": {
+              "min": [
+                -3.0991588814149167,
+                -1.8770652208907432,
+                -2.38127812529829
+              ],
+              "max": [
+                2.0355509517844705,
+                2.720951423435401,
+                1.8010509041561615
+              ],
+              "range": [
+                5.134709833199388,
+                4.598016644326144,
+                4.1823290294544515
+              ]
+            }
+          },
+          "falsification_notes": ""
+        },
+        "truth_table": {
+          "test_name": "basic_statistical_analysis",
+          "timestamp": "2025-08-05T12:32:28.572058",
+          "pass_fail": {},
+          "metrics": {
+            "test_name": "basic_statistical_analysis",
+            "timestamp": "2025-08-05T12:32:28.572028",
+            "pass_fail": {
+              "data_loaded": true,
+              "has_sufficient_data": true,
+              "no_extreme_outliers": true,
+              "statistical_analysis_complete": true
+            },
+            "metrics": {
+              "mean": [
+                -0.1290377914660253,
+                0.08273931264193311,
+                0.08421173187566496
+              ],
+              "std": [
+                1.0502559395275575,
+                0.8803136370297587,
+                0.896210570076908
+              ],
+              "median": [
+                -0.2568804975886666,
+                0.060148268877521414,
+                0.07697953766565299
+              ],
+              "shape": [
+                100,
+                3
+              ],
+              "normality_tests": [
+                {
+                  "column": 0,
+                  "statistic": 0.21310909851029494,
+                  "p_value": 0.8989260110794384,
+                  "is_normal": true
+                },
+                {
+                  "column": 1,
+                  "statistic": 1.6231152634170325,
+                  "p_value": 0.44416568057411354,
+                  "is_normal": true
+                },
+                {
+                  "column": 2,
+                  "statistic": 0.6479131384791672,
+                  "p_value": 0.7232816543699586,
+                  "is_normal": true
+                }
+              ],
+              "outlier_analysis": [
+                {
+                  "column": 0,
+                  "outliers": 0,
+                  "outlier_percentage": 0.0
+                },
+                {
+                  "column": 1,
+                  "outliers": 0,
+                  "outlier_percentage": 0.0
+                },
+                {
+                  "column": 2,
+                  "outliers": 0,
+                  "outlier_percentage": 0.0
+                }
+              ]
+            },
+            "evidence": {
+              "raw_data_shape": [
+                100,
+                3
+              ],
+              "data_summary": {
+                "min": [
+                  -3.0991588814149167,
+                  -1.8770652208907432,
+                  -2.38127812529829
+                ],
+                "max": [
+                  2.0355509517844705,
+                  2.720951423435401,
+                  1.8010509041561615
+                ],
+                "range": [
+                  5.134709833199388,
+                  4.598016644326144,
+                  4.1823290294544515
+                ]
+              }
+            },
+            "falsification_notes": ""
+          },
+          "summary": "No pass/fail criteria defined"
+        },
+        "execution_time": 0.0021200180053710938,
+        "timestamp": "2025-08-05T12:32:28.572064"
+      },
+      "correlation_analysis": {
+        "test_name": "correlation_analysis",
+        "result": {
+          "test_name": "correlation_analysis",
+          "timestamp": "2025-08-05T12:32:28.572896",
+          "pass_fail": {
+            "correlation_analysis_complete": true,
+            "has_strong_correlations": false,
+            "data_suitable_for_correlation": true
+          },
+          "metrics": {
+            "pearson_correlation": [
+              [
+                1.0,
+                0.04723168305871307,
+                -0.14241261111507386
+              ],
+              [
+                0.04723168305871308,
+                1.0,
+                -0.023315442805368323
+              ],
+              [
+                -0.14241261111507383,
+                -0.023315442805368323,
+                1.0
+              ]
+            ],
+            "spearman_correlation": [
+              [
+                0.9999999999999999,
+                0.07014701470147015,
+                -0.09563756375637561
+              ],
+              [
+                0.07014701470147015,
+                0.9999999999999999,
+                -0.06173417341734173
+              ],
+              [
+                -0.09563756375637561,
+                -0.06173417341734173,
+                0.9999999999999999
+              ]
+            ],
+            "strong_correlations": [],
+            "correlation_threshold": 0.7
+          },
+          "evidence": {
+            "data_shape": [
+              100,
+              3
+            ],
+            "correlation_matrix_shape": [
+              3,
+              3
+            ]
+          },
+          "falsification_notes": ""
+        },
+        "truth_table": {
+          "test_name": "correlation_analysis",
+          "timestamp": "2025-08-05T12:32:28.572914",
+          "pass_fail": {},
+          "metrics": {
+            "test_name": "correlation_analysis",
+            "timestamp": "2025-08-05T12:32:28.572896",
+            "pass_fail": {
+              "correlation_analysis_complete": true,
+              "has_strong_correlations": false,
+              "data_suitable_for_correlation": true
+            },
+            "metrics": {
+              "pearson_correlation": [
+                [
+                  1.0,
+                  0.04723168305871307,
+                  -0.14241261111507386
+                ],
+                [
+                  0.04723168305871308,
+                  1.0,
+                  -0.023315442805368323
+                ],
+                [
+                  -0.14241261111507383,
+                  -0.023315442805368323,
+                  1.0
+                ]
+              ],
+              "spearman_correlation": [
+                [
+                  0.9999999999999999,
+                  0.07014701470147015,
+                  -0.09563756375637561
+                ],
+                [
+                  0.07014701470147015,
+                  0.9999999999999999,
+                  -0.06173417341734173
+                ],
+                [
+                  -0.09563756375637561,
+                  -0.06173417341734173,
+                  0.9999999999999999
+                ]
+              ],
+              "strong_correlations": [],
+              "correlation_threshold": 0.7
+            },
+            "evidence": {
+              "data_shape": [
+                100,
+                3
+              ],
+              "correlation_matrix_shape": [
+                3,
+                3
+              ]
+            },
+            "falsification_notes": ""
+          },
+          "summary": "No pass/fail criteria defined"
+        },
+        "execution_time": 0.0006418228149414062,
+        "timestamp": "2025-08-05T12:32:28.572919"
+      },
+      "signal_detection_test": {
+        "test_name": "signal_detection_test",
+        "result": {
+          "test_name": "signal_detection_test",
+          "timestamp": "2025-08-05T12:32:28.573356",
+          "pass_fail": {
+            "signal_detected": true,
+            "snr_above_threshold": false,
+            "peaks_detected": true,
+            "frequency_analysis_complete": true
+          },
+          "metrics": {
+            "signal_statistics": {
+              "mean": -0.023368800148145845,
+              "std": 2.5847365942350424,
+              "snr": -0.009041076061780246,
+              "snr_threshold": 5.0
+            },
+            "peak_detection": {
+              "num_peaks": 9,
+              "peak_positions": [
+                64,
+                165,
+                264,
+                266,
+                366,
+                563,
+                565,
+                961,
+                964
+              ],
+              "detection_threshold": 5.0
+            },
+            "frequency_analysis": {
+              "dominant_frequency": 0.02,
+              "dominant_power": 2215950.118963957,
+              "total_power": 6681409.362398131
+            },
+            "moving_average": {
+              "window_size": 100,
+              "mean": -0.03168168348289094,
+              "std": 0.054823969657256305
+            },
+            "detection_summary": {
+              "signal_detected": true,
+              "peaks_detected": true,
+              "signal_strength": "weak"
+            }
+          },
+          "evidence": {
+            "data_length": 1000,
+            "fft_length": 1000,
+            "moving_avg_length": 901
+          },
+          "falsification_notes": ""
+        },
+        "truth_table": {
+          "test_name": "signal_detection_test",
+          "timestamp": "2025-08-05T12:32:28.573377",
+          "pass_fail": {},
+          "metrics": {
+            "test_name": "signal_detection_test",
+            "timestamp": "2025-08-05T12:32:28.573356",
+            "pass_fail": {
+              "signal_detected": true,
+              "snr_above_threshold": false,
+              "peaks_detected": true,
+              "frequency_analysis_complete": true
+            },
+            "metrics": {
+              "signal_statistics": {
+                "mean": -0.023368800148145845,
+                "std": 2.5847365942350424,
+                "snr": -0.009041076061780246,
+                "snr_threshold": 5.0
+              },
+              "peak_detection": {
+                "num_peaks": 9,
+                "peak_positions": [
+                  64,
+                  165,
+                  264,
+                  266,
+                  366,
+                  563,
+                  565,
+                  961,
+                  964
+                ],
+                "detection_threshold": 5.0
+              },
+              "frequency_analysis": {
+                "dominant_frequency": 0.02,
+                "dominant_power": 2215950.118963957,
+                "total_power": 6681409.362398131
+              },
+              "moving_average": {
+                "window_size": 100,
+                "mean": -0.03168168348289094,
+                "std": 0.054823969657256305
+              },
+              "detection_summary": {
+                "signal_detected": true,
+                "peaks_detected": true,
+                "signal_strength": "weak"
+              }
+            },
+            "evidence": {
+              "data_length": 1000,
+              "fft_length": 1000,
+              "moving_avg_length": 901
+            },
+            "falsification_notes": ""
+          },
+          "summary": "No pass/fail criteria defined"
+        },
+        "execution_time": 0.00025844573974609375,
+        "timestamp": "2025-08-05T12:32:28.573382"
+      },
+      "periodicity_test": {
+        "test_name": "periodicity_test",
+        "result": {
+          "test_name": "periodicity_test",
+          "timestamp": "2025-08-05T12:32:28.573791",
+          "pass_fail": {
+            "has_periodicity": true,
+            "periodicity_analysis_complete": true,
+            "significant_periods_found": true
+          },
+          "metrics": {
+            "autocorrelation_analysis": {
+              "detected_periods": [
+                {
+                  "lag": 100,
+                  "correlation": 5786.756006409101,
+                  "significance": 0.8660981078297655
+                },
+                {
+                  "lag": 200,
+                  "correlation": 5130.729110544333,
+                  "significance": 0.7679112043963703
+                },
+                {
+                  "lag": 57,
+                  "correlation": 3855.3612243663897,
+                  "significance": 0.5770281411080312
+                },
+                {
+                  "lag": 42,
+                  "correlation": 3764.7220507548536,
+                  "significance": 0.563462264704523
+                },
+                {
+                  "lag": 157,
+                  "correlation": 3485.603639662887,
+                  "significance": 0.521686885296879
+                },
+                {
+                  "lag": 142,
+                  "correlation": 3358.410468988872,
+                  "significance": 0.5026500079293826
+                }
+              ],
+              "max_period_tested": 250
+            },
+            "periodicity_summary": {
+              "has_periodicity": true,
+              "strongest_period": 100,
+              "periodicity_strength": "strong",
+              "num_periods_detected": 6
+            }
+          },
+          "evidence": {
+            "data_length": 1000,
+            "autocorr_length": 1000,
+            "max_period_tested": 250
+          },
+          "falsification_notes": ""
+        },
+        "truth_table": {
+          "test_name": "periodicity_test",
+          "timestamp": "2025-08-05T12:32:28.573811",
+          "pass_fail": {},
+          "metrics": {
+            "test_name": "periodicity_test",
+            "timestamp": "2025-08-05T12:32:28.573791",
+            "pass_fail": {
+              "has_periodicity": true,
+              "periodicity_analysis_complete": true,
+              "significant_periods_found": true
+            },
+            "metrics": {
+              "autocorrelation_analysis": {
+                "detected_periods": [
+                  {
+                    "lag": 100,
+                    "correlation": 5786.756006409101,
+                    "significance": 0.8660981078297655
+                  },
+                  {
+                    "lag": 200,
+                    "correlation": 5130.729110544333,
+                    "significance": 0.7679112043963703
+                  },
+                  {
+                    "lag": 57,
+                    "correlation": 3855.3612243663897,
+                    "significance": 0.5770281411080312
+                  },
+                  {
+                    "lag": 42,
+                    "correlation": 3764.7220507548536,
+                    "significance": 0.563462264704523
+                  },
+                  {
+                    "lag": 157,
+                    "correlation": 3485.603639662887,
+                    "significance": 0.521686885296879
+                  },
+                  {
+                    "lag": 142,
+                    "correlation": 3358.410468988872,
+                    "significance": 0.5026500079293826
+                  }
+                ],
+                "max_period_tested": 250
+              },
+              "periodicity_summary": {
+                "has_periodicity": true,
+                "strongest_period": 100,
+                "periodicity_strength": "strong",
+                "num_periods_detected": 6
+              }
+            },
+            "evidence": {
+              "data_length": 1000,
+              "autocorr_length": 1000,
+              "max_period_tested": 250
+            },
+            "falsification_notes": ""
+          },
+          "summary": "No pass/fail criteria defined"
+        },
+        "execution_time": 0.0002346038818359375,
+        "timestamp": "2025-08-05T12:32:28.573816"
+      },
+      "clustering_analysis": {
+        "test_name": "clustering_analysis",
+        "result": {
+          "test_name": "clustering_analysis",
+          "timestamp": "2025-08-05T12:32:30.011460",
+          "pass_fail": {
+            "clustering_analysis_complete": true,
+            "optimal_clusters_found": true,
+            "data_suitable_for_clustering": true
+          },
+          "metrics": {
+            "cluster_analysis": [
+              {
+                "n_clusters": 2,
+                "inertia": 3598.73627549523,
+                "silhouette_score": 0.4949360534569132,
+                "cluster_sizes": [
+                  221,
+                  379
+                ]
+              },
+              {
+                "n_clusters": 3,
+                "inertia": 1256.1536692296938,
+                "silhouette_score": 0.6146459240196681,
+                "cluster_sizes": [
+                  203,
+                  201,
+                  196
+                ]
+              },
+              {
+                "n_clusters": 4,
+                "inertia": 1089.585363719116,
+                "silhouette_score": 0.4976237263301323,
+                "cluster_sizes": [
+                  194,
+                  198,
+                  102,
+                  106
+                ]
+              },
+              {
+                "n_clusters": 5,
+                "inertia": 947.235688819925,
+                "silhouette_score": 0.4133081285665392,
+                "cluster_sizes": [
+                  104,
+                  198,
+                  99,
+                  98,
+                  101
+                ]
+              }
+            ],
+            "optimal_clusters": 3,
+            "optimal_silhouette": 0.6146459240196681
+          },
+          "evidence": {
+            "data_shape": [
+              600,
+              2
+            ],
+            "max_clusters_tested": 5,
+            "silhouette_scores": [
+              0.4949360534569132,
+              0.6146459240196681,
+              0.4976237263301323,
+              0.4133081285665392
+            ]
+          },
+          "falsification_notes": ""
+        },
+        "truth_table": {
+          "test_name": "clustering_analysis",
+          "timestamp": "2025-08-05T12:32:30.011505",
+          "pass_fail": {},
+          "metrics": {
+            "test_name": "clustering_analysis",
+            "timestamp": "2025-08-05T12:32:30.011460",
+            "pass_fail": {
+              "clustering_analysis_complete": true,
+              "optimal_clusters_found": true,
+              "data_suitable_for_clustering": true
+            },
+            "metrics": {
+              "cluster_analysis": [
+                {
+                  "n_clusters": 2,
+                  "inertia": 3598.73627549523,
+                  "silhouette_score": 0.4949360534569132,
+                  "cluster_sizes": [
+                    221,
+                    379
+                  ]
+                },
+                {
+                  "n_clusters": 3,
+                  "inertia": 1256.1536692296938,
+                  "silhouette_score": 0.6146459240196681,
+                  "cluster_sizes": [
+                    203,
+                    201,
+                    196
+                  ]
+                },
+                {
+                  "n_clusters": 4,
+                  "inertia": 1089.585363719116,
+                  "silhouette_score": 0.4976237263301323,
+                  "cluster_sizes": [
+                    194,
+                    198,
+                    102,
+                    106
+                  ]
+                },
+                {
+                  "n_clusters": 5,
+                  "inertia": 947.235688819925,
+                  "silhouette_score": 0.4133081285665392,
+                  "cluster_sizes": [
+                    104,
+                    198,
+                    99,
+                    98,
+                    101
+                  ]
+                }
+              ],
+              "optimal_clusters": 3,
+              "optimal_silhouette": 0.6146459240196681
+            },
+            "evidence": {
+              "data_shape": [
+                600,
+                2
+              ],
+              "max_clusters_tested": 5,
+              "silhouette_scores": [
+                0.4949360534569132,
+                0.6146459240196681,
+                0.4976237263301323,
+                0.4133081285665392
+              ]
+            },
+            "falsification_notes": ""
+          },
+          "summary": "No pass/fail criteria defined"
+        },
+        "execution_time": 1.4374744892120361,
+        "timestamp": "2025-08-05T12:32:30.011513"
+      },
+      "dimensionality_analysis": {
+        "test_name": "dimensionality_analysis",
+        "result": {
+          "test_name": "dimensionality_analysis",
+          "timestamp": "2025-08-05T12:32:30.012569",
+          "pass_fail": {
+            "dimensionality_analysis_complete": true,
+            "data_has_multiple_features": true,
+            "dimensionality_reduction_possible": false
+          },
+          "metrics": {
+            "dimensions": {
+              "samples": 100,
+              "features": 3,
+              "total_elements": 300
+            },
+            "effective_dimensions": {
+              "dimensions_for_90_percent_variance": 3,
+              "dimensions_for_95_percent_variance": 3,
+              "dimensions_for_99_percent_variance": 3,
+              "dimensionality_reduction_potential": 0
+            }
+          },
+          "evidence": {
+            "data_shape": [
+              100,
+              3
+            ],
+            "pca_components": 3
+          },
+          "falsification_notes": ""
+        },
+        "truth_table": {
+          "test_name": "dimensionality_analysis",
+          "timestamp": "2025-08-05T12:32:30.012594",
+          "pass_fail": {},
+          "metrics": {
+            "test_name": "dimensionality_analysis",
+            "timestamp": "2025-08-05T12:32:30.012569",
+            "pass_fail": {
+              "dimensionality_analysis_complete": true,
+              "data_has_multiple_features": true,
+              "dimensionality_reduction_possible": false
+            },
+            "metrics": {
+              "dimensions": {
+                "samples": 100,
+                "features": 3,
+                "total_elements": 300
+              },
+              "effective_dimensions": {
+                "dimensions_for_90_percent_variance": 3,
+                "dimensions_for_95_percent_variance": 3,
+                "dimensions_for_99_percent_variance": 3,
+                "dimensionality_reduction_potential": 0
+              }
+            },
+            "evidence": {
+              "data_shape": [
+                100,
+                3
+              ],
+              "pca_components": 3
+            },
+            "falsification_notes": ""
+          },
+          "summary": "No pass/fail criteria defined"
+        },
+        "execution_time": 0.0008625984191894531,
+        "timestamp": "2025-08-05T12:32:30.012602"
+      },
+      "custom_test_template": {
+        "test_name": "custom_test_template",
+        "result": {
+          "custom_metric": 42.0,
+          "threshold": 5.0,
+          "analysis_complete": true,
+          "pass_fail": {
+            "custom_test_passed": true,
+            "analysis_complete": true
+          }
+        },
+        "truth_table": {
+          "test_name": "custom_test_template",
+          "timestamp": "2025-08-05T12:32:30.012838",
+          "pass_fail": {},
+          "metrics": {
+            "custom_metric": 42.0,
+            "threshold": 5.0,
+            "analysis_complete": true,
+            "pass_fail": {
+              "custom_test_passed": true,
+              "analysis_complete": true
+            }
+          },
+          "summary": "No pass/fail criteria defined"
+        },
+        "execution_time": 2.384185791015625e-06,
+        "timestamp": "2025-08-05T12:32:30.012846"
+      },
+      "enzyme_sequence_analysis": {
+        "test_name": "enzyme_sequence_analysis",
+        "result": {
+          "test_name": "enzyme_sequence_analysis",
+          "timestamp": "2025-08-05T12:32:30.013378",
+          "pass_fail": {
+            "sequence_parsed": false,
+            "analysis_complete": false
+          },
+          "metrics": {
+            "error": "Analysis failed: [Errno 22] Invalid argument: '>enzyme_0\\nVNARDGQGAYGIRQSYSWAELYVCERESRVHRMWIADFVNNWKMTSELRW\\n>enzyme_1\\nDFMFHGPCWMYFKGTWIHFRLSKHMKTKDIWYSHHYPDNIPYSHENTATC\\n>enzyme_2\\nGNMMVIHQSNKYSWSKPFWLHKQRPLQNWGNPISCHNHWQKVMSWMVMEV\\n>enzyme_3\\nWPELFDSIHWQRTAGRNYCFKYQVICKHVSFRFMQWDLGDCPVCRFRTCV\\n>enzyme_4\\nRYDFMKFAQFIQSGICWKFFWESSSHVADIAHHIWTMRKTMGKVYCEVAM\\n>enzyme_5\\nDIFYFMNKPYDPMMYHTSQAMPACKPFKPFRHQSGCSWFEQGIDEACPKN\\n>enzyme_6\\nLLVNSGLRKCVNDHKIGAQSSEGRIAPVVPQMHVETWQLGVEMPILMDRI\\n>enzyme_7\\nYVAIDAYSKTSGHSILQMCNYYPRNPISDPNWCAIKITKGRPNPHVQMQT\\n>enzyme_8\\nCWSLIFHPSFSRKNIPFQSMYNRNKADNYPGLLSASEGWCVLEARLVSPR\\n>enzyme_9\\nCYEAHMLAMLQQHMECHWQWHNDRFIQEHHVQINLQKGFAAYTMNDGMPM'"
+          },
+          "evidence": {
+            "error_type": "OSError"
+          },
+          "falsification_notes": "Exception during sequence analysis: [Errno 22] Invalid argument: '>enzyme_0\\nVNARDGQGAYGIRQSYSWAELYVCERESRVHRMWIADFVNNWKMTSELRW\\n>enzyme_1\\nDFMFHGPCWMYFKGTWIHFRLSKHMKTKDIWYSHHYPDNIPYSHENTATC\\n>enzyme_2\\nGNMMVIHQSNKYSWSKPFWLHKQRPLQNWGNPISCHNHWQKVMSWMVMEV\\n>enzyme_3\\nWPELFDSIHWQRTAGRNYCFKYQVICKHVSFRFMQWDLGDCPVCRFRTCV\\n>enzyme_4\\nRYDFMKFAQFIQSGICWKFFWESSSHVADIAHHIWTMRKTMGKVYCEVAM\\n>enzyme_5\\nDIFYFMNKPYDPMMYHTSQAMPACKPFKPFRHQSGCSWFEQGIDEACPKN\\n>enzyme_6\\nLLVNSGLRKCVNDHKIGAQSSEGRIAPVVPQMHVETWQLGVEMPILMDRI\\n>enzyme_7\\nYVAIDAYSKTSGHSILQMCNYYPRNPISDPNWCAIKITKGRPNPHVQMQT\\n>enzyme_8\\nCWSLIFHPSFSRKNIPFQSMYNRNKADNYPGLLSASEGWCVLEARLVSPR\\n>enzyme_9\\nCYEAHMLAMLQQHMECHWQWHNDRFIQEHHVQINLQKGFAAYTMNDGMPM'"
+        },
+        "truth_table": {
+          "test_name": "enzyme_sequence_analysis",
+          "timestamp": "2025-08-05T12:32:30.013401",
+          "pass_fail": {},
+          "metrics": {
+            "test_name": "enzyme_sequence_analysis",
+            "timestamp": "2025-08-05T12:32:30.013378",
+            "pass_fail": {
+              "sequence_parsed": false,
+              "analysis_complete": false
+            },
+            "metrics": {
+              "error": "Analysis failed: [Errno 22] Invalid argument: '>enzyme_0\\nVNARDGQGAYGIRQSYSWAELYVCERESRVHRMWIADFVNNWKMTSELRW\\n>enzyme_1\\nDFMFHGPCWMYFKGTWIHFRLSKHMKTKDIWYSHHYPDNIPYSHENTATC\\n>enzyme_2\\nGNMMVIHQSNKYSWSKPFWLHKQRPLQNWGNPISCHNHWQKVMSWMVMEV\\n>enzyme_3\\nWPELFDSIHWQRTAGRNYCFKYQVICKHVSFRFMQWDLGDCPVCRFRTCV\\n>enzyme_4\\nRYDFMKFAQFIQSGICWKFFWESSSHVADIAHHIWTMRKTMGKVYCEVAM\\n>enzyme_5\\nDIFYFMNKPYDPMMYHTSQAMPACKPFKPFRHQSGCSWFEQGIDEACPKN\\n>enzyme_6\\nLLVNSGLRKCVNDHKIGAQSSEGRIAPVVPQMHVETWQLGVEMPILMDRI\\n>enzyme_7\\nYVAIDAYSKTSGHSILQMCNYYPRNPISDPNWCAIKITKGRPNPHVQMQT\\n>enzyme_8\\nCWSLIFHPSFSRKNIPFQSMYNRNKADNYPGLLSASEGWCVLEARLVSPR\\n>enzyme_9\\nCYEAHMLAMLQQHMECHWQWHNDRFIQEHHVQINLQKGFAAYTMNDGMPM'"
+            },
+            "evidence": {
+              "error_type": "OSError"
+            },
+            "falsification_notes": "Exception during sequence analysis: [Errno 22] Invalid argument: '>enzyme_0\\nVNARDGQGAYGIRQSYSWAELYVCERESRVHRMWIADFVNNWKMTSELRW\\n>enzyme_1\\nDFMFHGPCWMYFKGTWIHFRLSKHMKTKDIWYSHHYPDNIPYSHENTATC\\n>enzyme_2\\nGNMMVIHQSNKYSWSKPFWLHKQRPLQNWGNPISCHNHWQKVMSWMVMEV\\n>enzyme_3\\nWPELFDSIHWQRTAGRNYCFKYQVICKHVSFRFMQWDLGDCPVCRFRTCV\\n>enzyme_4\\nRYDFMKFAQFIQSGICWKFFWESSSHVADIAHHIWTMRKTMGKVYCEVAM\\n>enzyme_5\\nDIFYFMNKPYDPMMYHTSQAMPACKPFKPFRHQSGCSWFEQGIDEACPKN\\n>enzyme_6\\nLLVNSGLRKCVNDHKIGAQSSEGRIAPVVPQMHVETWQLGVEMPILMDRI\\n>enzyme_7\\nYVAIDAYSKTSGHSILQMCNYYPRNPISDPNWCAIKITKGRPNPHVQMQT\\n>enzyme_8\\nCWSLIFHPSFSRKNIPFQSMYNRNKADNYPGLLSASEGWCVLEARLVSPR\\n>enzyme_9\\nCYEAHMLAMLQQHMECHWQWHNDRFIQEHHVQINLQKGFAAYTMNDGMPM'"
+          },
+          "summary": "No pass/fail criteria defined"
+        },
+        "execution_time": 0.0004048347473144531,
+        "timestamp": "2025-08-05T12:32:30.013410"
+      },
+      "enzyme_structure_validation": {
+        "test_name": "enzyme_structure_validation",
+        "result": {
+          "test_name": "enzyme_structure_validation",
+          "timestamp": "2025-08-05T12:32:30.013721",
+          "pass_fail": {
+            "structure_loaded": false,
+            "validation_complete": false
+          },
+          "metrics": {
+            "error": "PDB file not found: >enzyme_0\nVNARDGQGAYGIRQSYSWAELYVCERESRVHRMWIADFVNNWKMTSELRW\n>enzyme_1\nDFMFHGPCWMYFKGTWIHFRLSKHMKTKDIWYSHHYPDNIPYSHENTATC\n>enzyme_2\nGNMMVIHQSNKYSWSKPFWLHKQRPLQNWGNPISCHNHWQKVMSWMVMEV\n>enzyme_3\nWPELFDSIHWQRTAGRNYCFKYQVICKHVSFRFMQWDLGDCPVCRFRTCV\n>enzyme_4\nRYDFMKFAQFIQSGICWKFFWESSSHVADIAHHIWTMRKTMGKVYCEVAM\n>enzyme_5\nDIFYFMNKPYDPMMYHTSQAMPACKPFKPFRHQSGCSWFEQGIDEACPKN\n>enzyme_6\nLLVNSGLRKCVNDHKIGAQSSEGRIAPVVPQMHVETWQLGVEMPILMDRI\n>enzyme_7\nYVAIDAYSKTSGHSILQMCNYYPRNPISDPNWCAIKITKGRPNPHVQMQT\n>enzyme_8\nCWSLIFHPSFSRKNIPFQSMYNRNKADNYPGLLSASEGWCVLEARLVSPR\n>enzyme_9\nCYEAHMLAMLQQHMECHWQWHNDRFIQEHHVQINLQKGFAAYTMNDGMPM"
+          },
+          "evidence": {
+            "file_path": ">enzyme_0\nVNARDGQGAYGIRQSYSWAELYVCERESRVHRMWIADFVNNWKMTSELRW\n>enzyme_1\nDFMFHGPCWMYFKGTWIHFRLSKHMKTKDIWYSHHYPDNIPYSHENTATC\n>enzyme_2\nGNMMVIHQSNKYSWSKPFWLHKQRPLQNWGNPISCHNHWQKVMSWMVMEV\n>enzyme_3\nWPELFDSIHWQRTAGRNYCFKYQVICKHVSFRFMQWDLGDCPVCRFRTCV\n>enzyme_4\nRYDFMKFAQFIQSGICWKFFWESSSHVADIAHHIWTMRKTMGKVYCEVAM\n>enzyme_5\nDIFYFMNKPYDPMMYHTSQAMPACKPFKPFRHQSGCSWFEQGIDEACPKN\n>enzyme_6\nLLVNSGLRKCVNDHKIGAQSSEGRIAPVVPQMHVETWQLGVEMPILMDRI\n>enzyme_7\nYVAIDAYSKTSGHSILQMCNYYPRNPISDPNWCAIKITKGRPNPHVQMQT\n>enzyme_8\nCWSLIFHPSFSRKNIPFQSMYNRNKADNYPGLLSASEGWCVLEARLVSPR\n>enzyme_9\nCYEAHMLAMLQQHMECHWQWHNDRFIQEHHVQINLQKGFAAYTMNDGMPM"
+          },
+          "falsification_notes": "PDB file does not exist"
+        },
+        "truth_table": {
+          "test_name": "enzyme_structure_validation",
+          "timestamp": "2025-08-05T12:32:30.013743",
+          "pass_fail": {},
+          "metrics": {
+            "test_name": "enzyme_structure_validation",
+            "timestamp": "2025-08-05T12:32:30.013721",
+            "pass_fail": {
+              "structure_loaded": false,
+              "validation_complete": false
+            },
+            "metrics": {
+              "error": "PDB file not found: >enzyme_0\nVNARDGQGAYGIRQSYSWAELYVCERESRVHRMWIADFVNNWKMTSELRW\n>enzyme_1\nDFMFHGPCWMYFKGTWIHFRLSKHMKTKDIWYSHHYPDNIPYSHENTATC\n>enzyme_2\nGNMMVIHQSNKYSWSKPFWLHKQRPLQNWGNPISCHNHWQKVMSWMVMEV\n>enzyme_3\nWPELFDSIHWQRTAGRNYCFKYQVICKHVSFRFMQWDLGDCPVCRFRTCV\n>enzyme_4\nRYDFMKFAQFIQSGICWKFFWESSSHVADIAHHIWTMRKTMGKVYCEVAM\n>enzyme_5\nDIFYFMNKPYDPMMYHTSQAMPACKPFKPFRHQSGCSWFEQGIDEACPKN\n>enzyme_6\nLLVNSGLRKCVNDHKIGAQSSEGRIAPVVPQMHVETWQLGVEMPILMDRI\n>enzyme_7\nYVAIDAYSKTSGHSILQMCNYYPRNPISDPNWCAIKITKGRPNPHVQMQT\n>enzyme_8\nCWSLIFHPSFSRKNIPFQSMYNRNKADNYPGLLSASEGWCVLEARLVSPR\n>enzyme_9\nCYEAHMLAMLQQHMECHWQWHNDRFIQEHHVQINLQKGFAAYTMNDGMPM"
+            },
+            "evidence": {
+              "file_path": ">enzyme_0\nVNARDGQGAYGIRQSYSWAELYVCERESRVHRMWIADFVNNWKMTSELRW\n>enzyme_1\nDFMFHGPCWMYFKGTWIHFRLSKHMKTKDIWYSHHYPDNIPYSHENTATC\n>enzyme_2\nGNMMVIHQSNKYSWSKPFWLHKQRPLQNWGNPISCHNHWQKVMSWMVMEV\n>enzyme_3\nWPELFDSIHWQRTAGRNYCFKYQVICKHVSFRFMQWDLGDCPVCRFRTCV\n>enzyme_4\nRYDFMKFAQFIQSGICWKFFWESSSHVADIAHHIWTMRKTMGKVYCEVAM\n>enzyme_5\nDIFYFMNKPYDPMMYHTSQAMPACKPFKPFRHQSGCSWFEQGIDEACPKN\n>enzyme_6\nLLVNSGLRKCVNDHKIGAQSSEGRIAPVVPQMHVETWQLGVEMPILMDRI\n>enzyme_7\nYVAIDAYSKTSGHSILQMCNYYPRNPISDPNWCAIKITKGRPNPHVQMQT\n>enzyme_8\nCWSLIFHPSFSRKNIPFQSMYNRNKADNYPGLLSASEGWCVLEARLVSPR\n>enzyme_9\nCYEAHMLAMLQQHMECHWQWHNDRFIQEHHVQINLQKGFAAYTMNDGMPM"
+            },
+            "falsification_notes": "PDB file does not exist"
+          },
+          "summary": "No pass/fail criteria defined"
+        },
+        "execution_time": 6.246566772460938e-05,
+        "timestamp": "2025-08-05T12:32:30.013750"
+      },
+      "enzyme_mutation_analysis": {
+        "test_name": "enzyme_mutation_analysis",
+        "error": "enzyme_mutation_analysis() missing 1 required positional argument: 'mutant_fasta'",
+        "timestamp": "2025-08-05T12:32:30.013975"
+      },
+      "enzyme_activity_prediction": {
+        "test_name": "enzyme_activity_prediction",
+        "error": "enzyme_activity_prediction() missing 1 required positional argument: 'structure_data'",
+        "timestamp": "2025-08-05T12:32:30.014082"
+      },
+      "climate_trend_analysis": {
+        "test_name": "climate_trend_analysis",
+        "result": {
+          "test_name": "climate_trend_analysis",
+          "pass_fail": {
+            "temperature_trend_detected": true,
+            "temperature_warming_significant": true,
+            "co2_trend_detected": false,
+            "co2_increase_significant": false,
+            "warming_rate_above_threshold": false,
+            "co2_increase_above_threshold": false,
+            "seasonal_patterns_detected": true
+          },
+          "metrics": {
+            "temperature_analysis": {
+              "trend": "warming",
+              "slope": 0.006138140134693671,
+              "r_squared": 0.42492727852721135,
+              "p_value": 4.888592408274161e-122,
+              "mean": 3.8299316645490857,
+              "std": 2.7182453459436493
+            },
+            "co2_analysis": {
+              "trend": null,
+              "slope": null,
+              "r_squared": null,
+              "p_value": null,
+              "mean": null,
+              "std": null
+            },
+            "detrending_analysis": {
+              "temp_detrended_std": 2.0613419272518976,
+              "co2_detrended_std": null
+            },
+            "seasonal_analysis": {
+              "temp_seasonal_strength": 0.2304901019234764,
+              "co2_seasonal_strength": null
+            }
+          },
+          "evidence": {
+            "data_length": 1000,
+            "temp_data_length": 1000,
+            "co2_data_length": 0,
+            "time_span_years": null
+          },
+          "falsification_notes": "",
+          "timestamp": "2025-08-05T12:32:30.016664"
+        },
+        "truth_table": {
+          "test_name": "climate_trend_analysis",
+          "timestamp": "2025-08-05T12:32:30.016758",
+          "pass_fail": {},
+          "metrics": {
+            "test_name": "climate_trend_analysis",
+            "pass_fail": {
+              "temperature_trend_detected": true,
+              "temperature_warming_significant": true,
+              "co2_trend_detected": false,
+              "co2_increase_significant": false,
+              "warming_rate_above_threshold": false,
+              "co2_increase_above_threshold": false,
+              "seasonal_patterns_detected": true
+            },
+            "metrics": {
+              "temperature_analysis": {
+                "trend": "warming",
+                "slope": 0.006138140134693671,
+                "r_squared": 0.42492727852721135,
+                "p_value": 4.888592408274161e-122,
+                "mean": 3.8299316645490857,
+                "std": 2.7182453459436493
+              },
+              "co2_analysis": {
+                "trend": null,
+                "slope": null,
+                "r_squared": null,
+                "p_value": null,
+                "mean": null,
+                "std": null
+              },
+              "detrending_analysis": {
+                "temp_detrended_std": 2.0613419272518976,
+                "co2_detrended_std": null
+              },
+              "seasonal_analysis": {
+                "temp_seasonal_strength": 0.2304901019234764,
+                "co2_seasonal_strength": null
+              }
+            },
+            "evidence": {
+              "data_length": 1000,
+              "temp_data_length": 1000,
+              "co2_data_length": 0,
+              "time_span_years": null
+            },
+            "falsification_notes": "",
+            "timestamp": "2025-08-05T12:32:30.016664"
+          },
+          "summary": "No pass/fail criteria defined"
+        },
+        "execution_time": 0.002536773681640625,
+        "timestamp": "2025-08-05T12:32:30.016768"
+      },
+      "climate_change_detection": {
+        "test_name": "climate_change_detection",
+        "result": {
+          "test_name": "climate_change_detection",
+          "pass_fail": {
+            "trend_detected": true,
+            "trend_significant": true,
+            "warming_detected": true,
+            "stationarity_tested": false,
+            "non_stationary": false,
+            "breakpoints_detected": true
+          },
+          "metrics": {
+            "mann_kendall_test": {
+              "tau": 0.4627187187187188,
+              "p_value": 2.0708499026811232e-106
+            },
+            "augmented_dickey_fuller": null,
+            "breakpoint_analysis": {
+              "num_breakpoints": 40,
+              "breakpoint_positions": [
+                7,
+                27,
+                38,
+                44,
+                62,
+                96,
+                194,
+                201,
+                208,
+                229,
+                230,
+                238,
+                291,
+                308,
+                321,
+                354,
+                412,
+                414,
+                434,
+                459,
+                485,
+                509,
+                518,
+                613,
+                619,
+                623,
+                690,
+                727,
+                729,
+                734,
+                738,
+                752,
+                775,
+                780,
+                823,
+                825,
+                920,
+                922,
+                952,
+                965
+              ],
+              "detection_threshold": 3.8849634271042794
+            },
+            "trend_summary": {
+              "trend_direction": "increasing",
+              "trend_strength": 0.4627187187187188,
+              "significance_level": 2.0708499026811232e-106
+            }
+          },
+          "evidence": {
+            "data_length": 1000,
+            "time_span": 1000,
+            "data_range": 15.909735644029293,
+            "data_variance": 7.3962540147590685
+          },
+          "falsification_notes": "",
+          "timestamp": "2025-08-05T12:32:30.041838"
+        },
+        "truth_table": {
+          "test_name": "climate_change_detection",
+          "timestamp": "2025-08-05T12:32:30.041874",
+          "pass_fail": {},
+          "metrics": {
+            "test_name": "climate_change_detection",
+            "pass_fail": {
+              "trend_detected": true,
+              "trend_significant": true,
+              "warming_detected": true,
+              "stationarity_tested": false,
+              "non_stationary": false,
+              "breakpoints_detected": true
+            },
+            "metrics": {
+              "mann_kendall_test": {
+                "tau": 0.4627187187187188,
+                "p_value": 2.0708499026811232e-106
+              },
+              "augmented_dickey_fuller": null,
+              "breakpoint_analysis": {
+                "num_breakpoints": 40,
+                "breakpoint_positions": [
+                  7,
+                  27,
+                  38,
+                  44,
+                  62,
+                  96,
+                  194,
+                  201,
+                  208,
+                  229,
+                  230,
+                  238,
+                  291,
+                  308,
+                  321,
+                  354,
+                  412,
+                  414,
+                  434,
+                  459,
+                  485,
+                  509,
+                  518,
+                  613,
+                  619,
+                  623,
+                  690,
+                  727,
+                  729,
+                  734,
+                  738,
+                  752,
+                  775,
+                  780,
+                  823,
+                  825,
+                  920,
+                  922,
+                  952,
+                  965
+                ],
+                "detection_threshold": 3.8849634271042794
+              },
+              "trend_summary": {
+                "trend_direction": "increasing",
+                "trend_strength": 0.4627187187187188,
+                "significance_level": 2.0708499026811232e-106
+              }
+            },
+            "evidence": {
+              "data_length": 1000,
+              "time_span": 1000,
+              "data_range": 15.909735644029293,
+              "data_variance": 7.3962540147590685
+            },
+            "falsification_notes": "",
+            "timestamp": "2025-08-05T12:32:30.041838"
+          },
+          "summary": "No pass/fail criteria defined"
+        },
+        "execution_time": 0.024878501892089844,
+        "timestamp": "2025-08-05T12:32:30.041880"
+      },
+      "seasonal_climate_analysis": {
+        "test_name": "seasonal_climate_analysis",
+        "result": {
+          "test_name": "seasonal_climate_analysis",
+          "pass_fail": {
+            "seasonal_decomposition_successful": true,
+            "strong_seasonal_pattern": false,
+            "trend_dominates_seasonality": true,
+            "monthly_statistics_available": false
+          },
+          "metrics": {
+            "seasonal_analysis": {
+              "peak_month": 3,
+              "trough_month": 7,
+              "amplitude": 0.8457810356475963,
+              "seasonal_strength": 0.08479370792170376,
+              "trend_strength": 0.6939019529112731,
+              "residual_strength": 0.717619159251949
+            },
+            "monthly_statistics": null,
+            "decomposition_summary": {
+              "seasonal_strength": 0.08479370792170376,
+              "trend_strength": 0.6939019529112731,
+              "residual_strength": 0.717619159251949
+            }
+          },
+          "evidence": {
+            "data_length": 1000,
+            "has_monthly_data": false,
+            "time_span_years": 83.33333333333333
+          },
+          "falsification_notes": "",
+          "timestamp": "2025-08-05T12:32:30.044299"
+        },
+        "truth_table": {
+          "test_name": "seasonal_climate_analysis",
+          "timestamp": "2025-08-05T12:32:30.044347",
+          "pass_fail": {},
+          "metrics": {
+            "test_name": "seasonal_climate_analysis",
+            "pass_fail": {
+              "seasonal_decomposition_successful": true,
+              "strong_seasonal_pattern": false,
+              "trend_dominates_seasonality": true,
+              "monthly_statistics_available": false
+            },
+            "metrics": {
+              "seasonal_analysis": {
+                "peak_month": 3,
+                "trough_month": 7,
+                "amplitude": 0.8457810356475963,
+                "seasonal_strength": 0.08479370792170376,
+                "trend_strength": 0.6939019529112731,
+                "residual_strength": 0.717619159251949
+              },
+              "monthly_statistics": null,
+              "decomposition_summary": {
+                "seasonal_strength": 0.08479370792170376,
+                "trend_strength": 0.6939019529112731,
+                "residual_strength": 0.717619159251949
+              }
+            },
+            "evidence": {
+              "data_length": 1000,
+              "has_monthly_data": false,
+              "time_span_years": 83.33333333333333
+            },
+            "falsification_notes": "",
+            "timestamp": "2025-08-05T12:32:30.044299"
+          },
+          "summary": "No pass/fail criteria defined"
+        },
+        "execution_time": 0.002105712890625,
+        "timestamp": "2025-08-05T12:32:30.044355"
+      },
+      "heat_warning_correlation_index": {
+        "test_name": "heat_warning_correlation_index",
+        "result": {
+          "test_name": "heat_warning_correlation_index",
+          "pass_fail": {
+            "data_loaded": false,
+            "analysis_failed": true
+          },
+          "metrics": {
+            "error": "Shape of passed values is (500, 5), indices imply (500, 4)"
+          },
+          "evidence": {},
+          "falsification_notes": "HWCI analysis failed: Shape of passed values is (500, 5), indices imply (500, 4)",
+          "timestamp": "2025-08-05T12:32:30.044691"
+        },
+        "truth_table": {
+          "test_name": "heat_warning_correlation_index",
+          "timestamp": "2025-08-05T12:32:30.044714",
+          "pass_fail": {},
+          "metrics": {
+            "test_name": "heat_warning_correlation_index",
+            "pass_fail": {
+              "data_loaded": false,
+              "analysis_failed": true
+            },
+            "metrics": {
+              "error": "Shape of passed values is (500, 5), indices imply (500, 4)"
+            },
+            "evidence": {},
+            "falsification_notes": "HWCI analysis failed: Shape of passed values is (500, 5), indices imply (500, 4)",
+            "timestamp": "2025-08-05T12:32:30.044691"
+          },
+          "summary": "No pass/fail criteria defined"
+        },
+        "execution_time": 0.00014328956604003906,
+        "timestamp": "2025-08-05T12:32:30.044721"
+      },
+      "stress_perturbation_analysis": {
+        "test_name": "stress_perturbation_analysis",
+        "result": {
+          "test_name": "stress_perturbation_analysis",
+          "pass_fail": {
+            "data_loaded": false,
+            "analysis_failed": true
+          },
+          "metrics": {
+            "error": "Shape of passed values is (500, 5), indices imply (500, 4)"
+          },
+          "evidence": {},
+          "falsification_notes": "Stress perturbation analysis failed: Shape of passed values is (500, 5), indices imply (500, 4)",
+          "timestamp": "2025-08-05T12:32:30.045076"
+        },
+        "truth_table": {
+          "test_name": "stress_perturbation_analysis",
+          "timestamp": "2025-08-05T12:32:30.045097",
+          "pass_fail": {},
+          "metrics": {
+            "test_name": "stress_perturbation_analysis",
+            "pass_fail": {
+              "data_loaded": false,
+              "analysis_failed": true
+            },
+            "metrics": {
+              "error": "Shape of passed values is (500, 5), indices imply (500, 4)"
+            },
+            "evidence": {},
+            "falsification_notes": "Stress perturbation analysis failed: Shape of passed values is (500, 5), indices imply (500, 4)",
+            "timestamp": "2025-08-05T12:32:30.045076"
+          },
+          "summary": "No pass/fail criteria defined"
+        },
+        "execution_time": 0.00023436546325683594,
+        "timestamp": "2025-08-05T12:32:30.045104"
+      },
+      "seismic_modulator_analysis": {
+        "test_name": "seismic_modulator_analysis",
+        "result": {
+          "test_name": "seismic_modulator_analysis",
+          "pass_fail": {
+            "data_loaded": true,
+            "multiple_modulators_present": true,
+            "significant_total_effect": true,
+            "probability_shift_acceptable": false,
+            "observable_modulators": true
+          },
+          "metrics": {
+            "total_delta_sigma_kpa": 531.9856661579408,
+            "combined_probability_shift_percent": 10.639713323158817,
+            "modulator_count": 5,
+            "observable_modulator_count": 3,
+            "sigma_crit_kpa": 5000.0,
+            "modulator_effects": {
+              "solar_geomagnetic": {
+                "delta_sigma_kpa": 232.5,
+                "event_count": 465,
+                "evidence_quality": "Moderate",
+                "observability": true
+              },
+              "extreme_rainfall": {
+                "delta_sigma_kpa": 0.0,
+                "event_count": 0,
+                "evidence_quality": "Moderate",
+                "observability": false
+              },
+              "sea_level_rise": {
+                "delta_sigma_kpa": 0.30442857033987997,
+                "rate_mm_per_year": 1014.7619011329332,
+                "evidence_quality": "Moderate",
+                "observability": true
+              },
+              "data_center_waste_heat": {
+                "delta_sigma_kpa": 299.1811771015303,
+                "total_mw": 29918.11771015303,
+                "evidence_quality": "Emerging",
+                "observability": true
+              },
+              "gia": {
+                "delta_sigma_kpa": 6.0486070682249824e-05,
+                "uplift_rate_mm_per_year": 0.02016202356074994,
+                "evidence_quality": "High",
+                "observability": false
+              }
+            }
+          },
+          "evidence": {
+            "modulator_summary": "Analyzed 5 seismic modulators",
+            "total_effect": "Combined \u0394\u03c3: 532.0 kPa",
+            "probability_impact": "Combined probability shift: 10.640%",
+            "observability_status": "3 modulators observable"
+          },
+          "falsification_notes": "Seismic modulator analysis completed successfully",
+          "timestamp": "2025-08-05T12:32:30.052821"
+        },
+        "truth_table": {
+          "test_name": "seismic_modulator_analysis",
+          "timestamp": "2025-08-05T12:32:30.052874",
+          "pass_fail": {},
+          "metrics": {
+            "test_name": "seismic_modulator_analysis",
+            "pass_fail": {
+              "data_loaded": true,
+              "multiple_modulators_present": true,
+              "significant_total_effect": true,
+              "probability_shift_acceptable": false,
+              "observable_modulators": true
+            },
+            "metrics": {
+              "total_delta_sigma_kpa": 531.9856661579408,
+              "combined_probability_shift_percent": 10.639713323158817,
+              "modulator_count": 5,
+              "observable_modulator_count": 3,
+              "sigma_crit_kpa": 5000.0,
+              "modulator_effects": {
+                "solar_geomagnetic": {
+                  "delta_sigma_kpa": 232.5,
+                  "event_count": 465,
+                  "evidence_quality": "Moderate",
+                  "observability": true
+                },
+                "extreme_rainfall": {
+                  "delta_sigma_kpa": 0.0,
+                  "event_count": 0,
+                  "evidence_quality": "Moderate",
+                  "observability": false
+                },
+                "sea_level_rise": {
+                  "delta_sigma_kpa": 0.30442857033987997,
+                  "rate_mm_per_year": 1014.7619011329332,
+                  "evidence_quality": "Moderate",
+                  "observability": true
+                },
+                "data_center_waste_heat": {
+                  "delta_sigma_kpa": 299.1811771015303,
+                  "total_mw": 29918.11771015303,
+                  "evidence_quality": "Emerging",
+                  "observability": true
+                },
+                "gia": {
+                  "delta_sigma_kpa": 6.0486070682249824e-05,
+                  "uplift_rate_mm_per_year": 0.02016202356074994,
+                  "evidence_quality": "High",
+                  "observability": false
+                }
+              }
+            },
+            "evidence": {
+              "modulator_summary": "Analyzed 5 seismic modulators",
+              "total_effect": "Combined \u0394\u03c3: 532.0 kPa",
+              "probability_impact": "Combined probability shift: 10.640%",
+              "observability_status": "3 modulators observable"
+            },
+            "falsification_notes": "Seismic modulator analysis completed successfully",
+            "timestamp": "2025-08-05T12:32:30.052821"
+          },
+          "summary": "No pass/fail criteria defined"
+        },
+        "execution_time": 0.0075609683990478516,
+        "timestamp": "2025-08-05T12:32:30.052885"
+      },
+      "ligo_strain_analysis": {
+        "test_name": "ligo_strain_analysis",
+        "result": {
+          "time_domain_analysis": {
+            "duration": 1.0,
+            "mean_strain": -1.5357074503617517e-24,
+            "std_strain": 9.944336674568154e-22,
+            "max_strain": 3.922400251618342e-21,
+            "rms_strain": 9.944348532553479e-22
+          },
+          "frequency_domain_analysis": {
+            "dominant_frequency": 413.0,
+            "frequency_range": [
+              20,
+              2000
+            ],
+            "power_spectrum_max": 2.7238515306836436e-38,
+            "power_spectrum_mean": 4.050537174503364e-39
+          },
+          "snr_analysis": {
+            "snr": 2.5931963682275336,
+            "snr_threshold": 8.0,
+            "signal_power": 2.7238515306836436e-38,
+            "noise_power": 4.050537174503364e-39
+          },
+          "peak_analysis": {
+            "num_peaks": 6,
+            "peak_positions": [
+              411,
+              1000,
+              1526,
+              2570,
+              3535,
+              3980
+            ],
+            "peak_heights": [
+              -3.688365291428444e-21,
+              -3.836655548459369e-21,
+              3.157771283044298e-21,
+              -3.922400251618342e-21,
+              -3.2325654325124333e-21,
+              -3.3755791001775996e-21
+            ]
+          },
+          "detection_summary": {
+            "gravitational_wave_candidate": false,
+            "signal_quality": "low"
+          },
+          "pass_fail": {
+            "data_loaded": true,
+            "snr_above_threshold": false,
+            "frequency_in_range": true,
+            "duration_appropriate": true,
+            "peaks_detected": true,
+            "strain_sensitivity_adequate": false
+          }
+        },
+        "truth_table": {
+          "test_name": "ligo_strain_analysis",
+          "timestamp": "2025-08-05T12:32:30.053746",
+          "pass_fail": {},
+          "metrics": {
+            "time_domain_analysis": {
+              "duration": 1.0,
+              "mean_strain": -1.5357074503617517e-24,
+              "std_strain": 9.944336674568154e-22,
+              "max_strain": 3.922400251618342e-21,
+              "rms_strain": 9.944348532553479e-22
+            },
+            "frequency_domain_analysis": {
+              "dominant_frequency": 413.0,
+              "frequency_range": [
+                20,
+                2000
+              ],
+              "power_spectrum_max": 2.7238515306836436e-38,
+              "power_spectrum_mean": 4.050537174503364e-39
+            },
+            "snr_analysis": {
+              "snr": 2.5931963682275336,
+              "snr_threshold": 8.0,
+              "signal_power": 2.7238515306836436e-38,
+              "noise_power": 4.050537174503364e-39
+            },
+            "peak_analysis": {
+              "num_peaks": 6,
+              "peak_positions": [
+                411,
+                1000,
+                1526,
+                2570,
+                3535,
+                3980
+              ],
+              "peak_heights": [
+                -3.688365291428444e-21,
+                -3.836655548459369e-21,
+                3.157771283044298e-21,
+                -3.922400251618342e-21,
+                -3.2325654325124333e-21,
+                -3.3755791001775996e-21
+              ]
+            },
+            "detection_summary": {
+              "gravitational_wave_candidate": false,
+              "signal_quality": "low"
+            },
+            "pass_fail": {
+              "data_loaded": true,
+              "snr_above_threshold": false,
+              "frequency_in_range": true,
+              "duration_appropriate": true,
+              "peaks_detected": true,
+              "strain_sensitivity_adequate": false
+            }
+          },
+          "summary": "No pass/fail criteria defined"
+        },
+        "execution_time": 0.000518798828125,
+        "timestamp": "2025-08-05T12:32:30.053755"
+      },
+      "particle_physics_analysis": {
+        "test_name": "particle_physics_analysis",
+        "result": {
+          "energy_analysis": {
+            "mean_energy": -0.12903779146602523,
+            "std_energy": 1.0502559395275572,
+            "max_energy": 2.0355509517844705,
+            "min_energy": -3.0991588814149167
+          },
+          "momentum_analysis": {
+            "mean_momentum": 1.1296476896181262,
+            "std_momentum": 0.56212008720604,
+            "max_momentum": 2.7531675577213317
+          },
+          "invariant_mass_analysis": {},
+          "data_summary": {
+            "num_events": 100,
+            "num_observables": 3,
+            "data_completeness": "partial"
+          },
+          "pass_fail": {
+            "data_loaded": true,
+            "energy_analysis_complete": true,
+            "momentum_analysis_complete": true,
+            "mass_analysis_complete": false,
+            "data_quality_adequate": false
+          }
+        },
+        "truth_table": {
+          "test_name": "particle_physics_analysis",
+          "timestamp": "2025-08-05T12:32:30.054167",
+          "pass_fail": {},
+          "metrics": {
+            "energy_analysis": {
+              "mean_energy": -0.12903779146602523,
+              "std_energy": 1.0502559395275572,
+              "max_energy": 2.0355509517844705,
+              "min_energy": -3.0991588814149167
+            },
+            "momentum_analysis": {
+              "mean_momentum": 1.1296476896181262,
+              "std_momentum": 0.56212008720604,
+              "max_momentum": 2.7531675577213317
+            },
+            "invariant_mass_analysis": {},
+            "data_summary": {
+              "num_events": 100,
+              "num_observables": 3,
+              "data_completeness": "partial"
+            },
+            "pass_fail": {
+              "data_loaded": true,
+              "energy_analysis_complete": true,
+              "momentum_analysis_complete": true,
+              "mass_analysis_complete": false,
+              "data_quality_adequate": false
+            }
+          },
+          "summary": "No pass/fail criteria defined"
+        },
+        "execution_time": 0.00013637542724609375,
+        "timestamp": "2025-08-05T12:32:30.054178"
+      },
+      "cosmology_analysis": {
+        "test_name": "cosmology_analysis",
+        "result": {
+          "redshift_analysis": {
+            "mean_redshift": -0.12903779146602523,
+            "std_redshift": 1.0502559395275572,
+            "max_redshift": 2.0355509517844705,
+            "min_redshift": -3.0991588814149167
+          },
+          "distance_analysis": {
+            "mean_distance": 0.08273931264193311,
+            "std_distance": 0.8803136370297587,
+            "max_distance": 2.720951423435401,
+            "min_distance": -1.8770652208907432
+          },
+          "hubble_analysis": {
+            "mean_hubble_parameter": -227058.38687544034,
+            "std_hubble_parameter": 4323245.147590147,
+            "hubble_constant_estimate": -227058.38687544034
+          },
+          "cosmology_summary": {
+            "num_galaxies": 100,
+            "redshift_range": [
+              -3.0991588814149167,
+              2.0355509517844705
+            ],
+            "distance_range": [
+              -1.8770652208907432,
+              2.720951423435401
+            ]
+          },
+          "pass_fail": {
+            "data_loaded": true,
+            "redshift_analysis_complete": true,
+            "distance_analysis_complete": true,
+            "hubble_analysis_complete": true,
+            "data_quality_adequate": true
+          }
+        },
+        "truth_table": {
+          "test_name": "cosmology_analysis",
+          "timestamp": "2025-08-05T12:32:30.054512",
+          "pass_fail": {},
+          "metrics": {
+            "redshift_analysis": {
+              "mean_redshift": -0.12903779146602523,
+              "std_redshift": 1.0502559395275572,
+              "max_redshift": 2.0355509517844705,
+              "min_redshift": -3.0991588814149167
+            },
+            "distance_analysis": {
+              "mean_distance": 0.08273931264193311,
+              "std_distance": 0.8803136370297587,
+              "max_distance": 2.720951423435401,
+              "min_distance": -1.8770652208907432
+            },
+            "hubble_analysis": {
+              "mean_hubble_parameter": -227058.38687544034,
+              "std_hubble_parameter": 4323245.147590147,
+              "hubble_constant_estimate": -227058.38687544034
+            },
+            "cosmology_summary": {
+              "num_galaxies": 100,
+              "redshift_range": [
+                -3.0991588814149167,
+                2.0355509517844705
+              ],
+              "distance_range": [
+                -1.8770652208907432,
+                2.720951423435401
+              ]
+            },
+            "pass_fail": {
+              "data_loaded": true,
+              "redshift_analysis_complete": true,
+              "distance_analysis_complete": true,
+              "hubble_analysis_complete": true,
+              "data_quality_adequate": true
+            }
+          },
+          "summary": "No pass/fail criteria defined"
+        },
+        "execution_time": 0.00010776519775390625,
+        "timestamp": "2025-08-05T12:32:30.054519"
+      },
+      "overall_truth_table": {
+        "batch_timestamp": "2025-08-05T12:32:28.569907",
+        "tests_run": [
+          {
+            "name": "basic_statistical_analysis",
+            "pass_fail": {},
+            "summary": "No pass/fail criteria defined"
+          },
+          {
+            "name": "correlation_analysis",
+            "pass_fail": {},
+            "summary": "No pass/fail criteria defined"
+          },
+          {
+            "name": "signal_detection_test",
+            "pass_fail": {},
+            "summary": "No pass/fail criteria defined"
+          },
+          {
+            "name": "periodicity_test",
+            "pass_fail": {},
+            "summary": "No pass/fail criteria defined"
+          },
+          {
+            "name": "clustering_analysis",
+            "pass_fail": {},
+            "summary": "No pass/fail criteria defined"
+          },
+          {
+            "name": "dimensionality_analysis",
+            "pass_fail": {},
+            "summary": "No pass/fail criteria defined"
+          },
+          {
+            "name": "custom_test_template",
+            "pass_fail": {},
+            "summary": "No pass/fail criteria defined"
+          },
+          {
+            "name": "enzyme_sequence_analysis",
+            "pass_fail": {},
+            "summary": "No pass/fail criteria defined"
+          },
+          {
+            "name": "enzyme_structure_validation",
+            "pass_fail": {},
+            "summary": "No pass/fail criteria defined"
+          },
+          {
+            "name": "climate_trend_analysis",
+            "pass_fail": {},
+            "summary": "No pass/fail criteria defined"
+          },
+          {
+            "name": "climate_change_detection",
+            "pass_fail": {},
+            "summary": "No pass/fail criteria defined"
+          },
+          {
+            "name": "seasonal_climate_analysis",
+            "pass_fail": {},
+            "summary": "No pass/fail criteria defined"
+          },
+          {
+            "name": "heat_warning_correlation_index",
+            "pass_fail": {},
+            "summary": "No pass/fail criteria defined"
+          },
+          {
+            "name": "stress_perturbation_analysis",
+            "pass_fail": {},
+            "summary": "No pass/fail criteria defined"
+          },
+          {
+            "name": "seismic_modulator_analysis",
+            "pass_fail": {},
+            "summary": "No pass/fail criteria defined"
+          },
+          {
+            "name": "ligo_strain_analysis",
+            "pass_fail": {},
+            "summary": "No pass/fail criteria defined"
+          },
+          {
+            "name": "particle_physics_analysis",
+            "pass_fail": {},
+            "summary": "No pass/fail criteria defined"
+          },
+          {
+            "name": "cosmology_analysis",
+            "pass_fail": {},
+            "summary": "No pass/fail criteria defined"
+          }
+        ],
+        "overall_pass_rate": 0.0,
+        "individual_results": {
+          "basic_statistical_analysis": {
+            "test_name": "basic_statistical_analysis",
+            "result": {
+              "test_name": "basic_statistical_analysis",
+              "timestamp": "2025-08-05T12:32:28.572028",
+              "pass_fail": {
+                "data_loaded": true,
+                "has_sufficient_data": true,
+                "no_extreme_outliers": true,
+                "statistical_analysis_complete": true
+              },
+              "metrics": {
+                "mean": [
+                  -0.1290377914660253,
+                  0.08273931264193311,
+                  0.08421173187566496
+                ],
+                "std": [
+                  1.0502559395275575,
+                  0.8803136370297587,
+                  0.896210570076908
+                ],
+                "median": [
+                  -0.2568804975886666,
+                  0.060148268877521414,
+                  0.07697953766565299
+                ],
+                "shape": [
+                  100,
+                  3
+                ],
+                "normality_tests": [
+                  {
+                    "column": 0,
+                    "statistic": 0.21310909851029494,
+                    "p_value": 0.8989260110794384,
+                    "is_normal": true
+                  },
+                  {
+                    "column": 1,
+                    "statistic": 1.6231152634170325,
+                    "p_value": 0.44416568057411354,
+                    "is_normal": true
+                  },
+                  {
+                    "column": 2,
+                    "statistic": 0.6479131384791672,
+                    "p_value": 0.7232816543699586,
+                    "is_normal": true
+                  }
+                ],
+                "outlier_analysis": [
+                  {
+                    "column": 0,
+                    "outliers": 0,
+                    "outlier_percentage": 0.0
+                  },
+                  {
+                    "column": 1,
+                    "outliers": 0,
+                    "outlier_percentage": 0.0
+                  },
+                  {
+                    "column": 2,
+                    "outliers": 0,
+                    "outlier_percentage": 0.0
+                  }
+                ]
+              },
+              "evidence": {
+                "raw_data_shape": [
+                  100,
+                  3
+                ],
+                "data_summary": {
+                  "min": [
+                    -3.0991588814149167,
+                    -1.8770652208907432,
+                    -2.38127812529829
+                  ],
+                  "max": [
+                    2.0355509517844705,
+                    2.720951423435401,
+                    1.8010509041561615
+                  ],
+                  "range": [
+                    5.134709833199388,
+                    4.598016644326144,
+                    4.1823290294544515
+                  ]
+                }
+              },
+              "falsification_notes": ""
+            },
+            "truth_table": {
+              "test_name": "basic_statistical_analysis",
+              "timestamp": "2025-08-05T12:32:28.572058",
+              "pass_fail": {},
+              "metrics": {
+                "test_name": "basic_statistical_analysis",
+                "timestamp": "2025-08-05T12:32:28.572028",
+                "pass_fail": {
+                  "data_loaded": true,
+                  "has_sufficient_data": true,
+                  "no_extreme_outliers": true,
+                  "statistical_analysis_complete": true
+                },
+                "metrics": {
+                  "mean": [
+                    -0.1290377914660253,
+                    0.08273931264193311,
+                    0.08421173187566496
+                  ],
+                  "std": [
+                    1.0502559395275575,
+                    0.8803136370297587,
+                    0.896210570076908
+                  ],
+                  "median": [
+                    -0.2568804975886666,
+                    0.060148268877521414,
+                    0.07697953766565299
+                  ],
+                  "shape": [
+                    100,
+                    3
+                  ],
+                  "normality_tests": [
+                    {
+                      "column": 0,
+                      "statistic": 0.21310909851029494,
+                      "p_value": 0.8989260110794384,
+                      "is_normal": true
+                    },
+                    {
+                      "column": 1,
+                      "statistic": 1.6231152634170325,
+                      "p_value": 0.44416568057411354,
+                      "is_normal": true
+                    },
+                    {
+                      "column": 2,
+                      "statistic": 0.6479131384791672,
+                      "p_value": 0.7232816543699586,
+                      "is_normal": true
+                    }
+                  ],
+                  "outlier_analysis": [
+                    {
+                      "column": 0,
+                      "outliers": 0,
+                      "outlier_percentage": 0.0
+                    },
+                    {
+                      "column": 1,
+                      "outliers": 0,
+                      "outlier_percentage": 0.0
+                    },
+                    {
+                      "column": 2,
+                      "outliers": 0,
+                      "outlier_percentage": 0.0
+                    }
+                  ]
+                },
+                "evidence": {
+                  "raw_data_shape": [
+                    100,
+                    3
+                  ],
+                  "data_summary": {
+                    "min": [
+                      -3.0991588814149167,
+                      -1.8770652208907432,
+                      -2.38127812529829
+                    ],
+                    "max": [
+                      2.0355509517844705,
+                      2.720951423435401,
+                      1.8010509041561615
+                    ],
+                    "range": [
+                      5.134709833199388,
+                      4.598016644326144,
+                      4.1823290294544515
+                    ]
+                  }
+                },
+                "falsification_notes": ""
+              },
+              "summary": "No pass/fail criteria defined"
+            },
+            "execution_time": 0.0021200180053710938,
+            "timestamp": "2025-08-05T12:32:28.572064"
+          },
+          "correlation_analysis": {
+            "test_name": "correlation_analysis",
+            "result": {
+              "test_name": "correlation_analysis",
+              "timestamp": "2025-08-05T12:32:28.572896",
+              "pass_fail": {
+                "correlation_analysis_complete": true,
+                "has_strong_correlations": false,
+                "data_suitable_for_correlation": true
+              },
+              "metrics": {
+                "pearson_correlation": [
+                  [
+                    1.0,
+                    0.04723168305871307,
+                    -0.14241261111507386
+                  ],
+                  [
+                    0.04723168305871308,
+                    1.0,
+                    -0.023315442805368323
+                  ],
+                  [
+                    -0.14241261111507383,
+                    -0.023315442805368323,
+                    1.0
+                  ]
+                ],
+                "spearman_correlation": [
+                  [
+                    0.9999999999999999,
+                    0.07014701470147015,
+                    -0.09563756375637561
+                  ],
+                  [
+                    0.07014701470147015,
+                    0.9999999999999999,
+                    -0.06173417341734173
+                  ],
+                  [
+                    -0.09563756375637561,
+                    -0.06173417341734173,
+                    0.9999999999999999
+                  ]
+                ],
+                "strong_correlations": [],
+                "correlation_threshold": 0.7
+              },
+              "evidence": {
+                "data_shape": [
+                  100,
+                  3
+                ],
+                "correlation_matrix_shape": [
+                  3,
+                  3
+                ]
+              },
+              "falsification_notes": ""
+            },
+            "truth_table": {
+              "test_name": "correlation_analysis",
+              "timestamp": "2025-08-05T12:32:28.572914",
+              "pass_fail": {},
+              "metrics": {
+                "test_name": "correlation_analysis",
+                "timestamp": "2025-08-05T12:32:28.572896",
+                "pass_fail": {
+                  "correlation_analysis_complete": true,
+                  "has_strong_correlations": false,
+                  "data_suitable_for_correlation": true
+                },
+                "metrics": {
+                  "pearson_correlation": [
+                    [
+                      1.0,
+                      0.04723168305871307,
+                      -0.14241261111507386
+                    ],
+                    [
+                      0.04723168305871308,
+                      1.0,
+                      -0.023315442805368323
+                    ],
+                    [
+                      -0.14241261111507383,
+                      -0.023315442805368323,
+                      1.0
+                    ]
+                  ],
+                  "spearman_correlation": [
+                    [
+                      0.9999999999999999,
+                      0.07014701470147015,
+                      -0.09563756375637561
+                    ],
+                    [
+                      0.07014701470147015,
+                      0.9999999999999999,
+                      -0.06173417341734173
+                    ],
+                    [
+                      -0.09563756375637561,
+                      -0.06173417341734173,
+                      0.9999999999999999
+                    ]
+                  ],
+                  "strong_correlations": [],
+                  "correlation_threshold": 0.7
+                },
+                "evidence": {
+                  "data_shape": [
+                    100,
+                    3
+                  ],
+                  "correlation_matrix_shape": [
+                    3,
+                    3
+                  ]
+                },
+                "falsification_notes": ""
+              },
+              "summary": "No pass/fail criteria defined"
+            },
+            "execution_time": 0.0006418228149414062,
+            "timestamp": "2025-08-05T12:32:28.572919"
+          },
+          "signal_detection_test": {
+            "test_name": "signal_detection_test",
+            "result": {
+              "test_name": "signal_detection_test",
+              "timestamp": "2025-08-05T12:32:28.573356",
+              "pass_fail": {
+                "signal_detected": true,
+                "snr_above_threshold": false,
+                "peaks_detected": true,
+                "frequency_analysis_complete": true
+              },
+              "metrics": {
+                "signal_statistics": {
+                  "mean": -0.023368800148145845,
+                  "std": 2.5847365942350424,
+                  "snr": -0.009041076061780246,
+                  "snr_threshold": 5.0
+                },
+                "peak_detection": {
+                  "num_peaks": 9,
+                  "peak_positions": [
+                    64,
+                    165,
+                    264,
+                    266,
+                    366,
+                    563,
+                    565,
+                    961,
+                    964
+                  ],
+                  "detection_threshold": 5.0
+                },
+                "frequency_analysis": {
+                  "dominant_frequency": 0.02,
+                  "dominant_power": 2215950.118963957,
+                  "total_power": 6681409.362398131
+                },
+                "moving_average": {
+                  "window_size": 100,
+                  "mean": -0.03168168348289094,
+                  "std": 0.054823969657256305
+                },
+                "detection_summary": {
+                  "signal_detected": true,
+                  "peaks_detected": true,
+                  "signal_strength": "weak"
+                }
+              },
+              "evidence": {
+                "data_length": 1000,
+                "fft_length": 1000,
+                "moving_avg_length": 901
+              },
+              "falsification_notes": ""
+            },
+            "truth_table": {
+              "test_name": "signal_detection_test",
+              "timestamp": "2025-08-05T12:32:28.573377",
+              "pass_fail": {},
+              "metrics": {
+                "test_name": "signal_detection_test",
+                "timestamp": "2025-08-05T12:32:28.573356",
+                "pass_fail": {
+                  "signal_detected": true,
+                  "snr_above_threshold": false,
+                  "peaks_detected": true,
+                  "frequency_analysis_complete": true
+                },
+                "metrics": {
+                  "signal_statistics": {
+                    "mean": -0.023368800148145845,
+                    "std": 2.5847365942350424,
+                    "snr": -0.009041076061780246,
+                    "snr_threshold": 5.0
+                  },
+                  "peak_detection": {
+                    "num_peaks": 9,
+                    "peak_positions": [
+                      64,
+                      165,
+                      264,
+                      266,
+                      366,
+                      563,
+                      565,
+                      961,
+                      964
+                    ],
+                    "detection_threshold": 5.0
+                  },
+                  "frequency_analysis": {
+                    "dominant_frequency": 0.02,
+                    "dominant_power": 2215950.118963957,
+                    "total_power": 6681409.362398131
+                  },
+                  "moving_average": {
+                    "window_size": 100,
+                    "mean": -0.03168168348289094,
+                    "std": 0.054823969657256305
+                  },
+                  "detection_summary": {
+                    "signal_detected": true,
+                    "peaks_detected": true,
+                    "signal_strength": "weak"
+                  }
+                },
+                "evidence": {
+                  "data_length": 1000,
+                  "fft_length": 1000,
+                  "moving_avg_length": 901
+                },
+                "falsification_notes": ""
+              },
+              "summary": "No pass/fail criteria defined"
+            },
+            "execution_time": 0.00025844573974609375,
+            "timestamp": "2025-08-05T12:32:28.573382"
+          },
+          "periodicity_test": {
+            "test_name": "periodicity_test",
+            "result": {
+              "test_name": "periodicity_test",
+              "timestamp": "2025-08-05T12:32:28.573791",
+              "pass_fail": {
+                "has_periodicity": true,
+                "periodicity_analysis_complete": true,
+                "significant_periods_found": true
+              },
+              "metrics": {
+                "autocorrelation_analysis": {
+                  "detected_periods": [
+                    {
+                      "lag": 100,
+                      "correlation": 5786.756006409101,
+                      "significance": 0.8660981078297655
+                    },
+                    {
+                      "lag": 200,
+                      "correlation": 5130.729110544333,
+                      "significance": 0.7679112043963703
+                    },
+                    {
+                      "lag": 57,
+                      "correlation": 3855.3612243663897,
+                      "significance": 0.5770281411080312
+                    },
+                    {
+                      "lag": 42,
+                      "correlation": 3764.7220507548536,
+                      "significance": 0.563462264704523
+                    },
+                    {
+                      "lag": 157,
+                      "correlation": 3485.603639662887,
+                      "significance": 0.521686885296879
+                    },
+                    {
+                      "lag": 142,
+                      "correlation": 3358.410468988872,
+                      "significance": 0.5026500079293826
+                    }
+                  ],
+                  "max_period_tested": 250
+                },
+                "periodicity_summary": {
+                  "has_periodicity": true,
+                  "strongest_period": 100,
+                  "periodicity_strength": "strong",
+                  "num_periods_detected": 6
+                }
+              },
+              "evidence": {
+                "data_length": 1000,
+                "autocorr_length": 1000,
+                "max_period_tested": 250
+              },
+              "falsification_notes": ""
+            },
+            "truth_table": {
+              "test_name": "periodicity_test",
+              "timestamp": "2025-08-05T12:32:28.573811",
+              "pass_fail": {},
+              "metrics": {
+                "test_name": "periodicity_test",
+                "timestamp": "2025-08-05T12:32:28.573791",
+                "pass_fail": {
+                  "has_periodicity": true,
+                  "periodicity_analysis_complete": true,
+                  "significant_periods_found": true
+                },
+                "metrics": {
+                  "autocorrelation_analysis": {
+                    "detected_periods": [
+                      {
+                        "lag": 100,
+                        "correlation": 5786.756006409101,
+                        "significance": 0.8660981078297655
+                      },
+                      {
+                        "lag": 200,
+                        "correlation": 5130.729110544333,
+                        "significance": 0.7679112043963703
+                      },
+                      {
+                        "lag": 57,
+                        "correlation": 3855.3612243663897,
+                        "significance": 0.5770281411080312
+                      },
+                      {
+                        "lag": 42,
+                        "correlation": 3764.7220507548536,
+                        "significance": 0.563462264704523
+                      },
+                      {
+                        "lag": 157,
+                        "correlation": 3485.603639662887,
+                        "significance": 0.521686885296879
+                      },
+                      {
+                        "lag": 142,
+                        "correlation": 3358.410468988872,
+                        "significance": 0.5026500079293826
+                      }
+                    ],
+                    "max_period_tested": 250
+                  },
+                  "periodicity_summary": {
+                    "has_periodicity": true,
+                    "strongest_period": 100,
+                    "periodicity_strength": "strong",
+                    "num_periods_detected": 6
+                  }
+                },
+                "evidence": {
+                  "data_length": 1000,
+                  "autocorr_length": 1000,
+                  "max_period_tested": 250
+                },
+                "falsification_notes": ""
+              },
+              "summary": "No pass/fail criteria defined"
+            },
+            "execution_time": 0.0002346038818359375,
+            "timestamp": "2025-08-05T12:32:28.573816"
+          },
+          "clustering_analysis": {
+            "test_name": "clustering_analysis",
+            "result": {
+              "test_name": "clustering_analysis",
+              "timestamp": "2025-08-05T12:32:30.011460",
+              "pass_fail": {
+                "clustering_analysis_complete": true,
+                "optimal_clusters_found": true,
+                "data_suitable_for_clustering": true
+              },
+              "metrics": {
+                "cluster_analysis": [
+                  {
+                    "n_clusters": 2,
+                    "inertia": 3598.73627549523,
+                    "silhouette_score": 0.4949360534569132,
+                    "cluster_sizes": [
+                      221,
+                      379
+                    ]
+                  },
+                  {
+                    "n_clusters": 3,
+                    "inertia": 1256.1536692296938,
+                    "silhouette_score": 0.6146459240196681,
+                    "cluster_sizes": [
+                      203,
+                      201,
+                      196
+                    ]
+                  },
+                  {
+                    "n_clusters": 4,
+                    "inertia": 1089.585363719116,
+                    "silhouette_score": 0.4976237263301323,
+                    "cluster_sizes": [
+                      194,
+                      198,
+                      102,
+                      106
+                    ]
+                  },
+                  {
+                    "n_clusters": 5,
+                    "inertia": 947.235688819925,
+                    "silhouette_score": 0.4133081285665392,
+                    "cluster_sizes": [
+                      104,
+                      198,
+                      99,
+                      98,
+                      101
+                    ]
+                  }
+                ],
+                "optimal_clusters": 3,
+                "optimal_silhouette": 0.6146459240196681
+              },
+              "evidence": {
+                "data_shape": [
+                  600,
+                  2
+                ],
+                "max_clusters_tested": 5,
+                "silhouette_scores": [
+                  0.4949360534569132,
+                  0.6146459240196681,
+                  0.4976237263301323,
+                  0.4133081285665392
+                ]
+              },
+              "falsification_notes": ""
+            },
+            "truth_table": {
+              "test_name": "clustering_analysis",
+              "timestamp": "2025-08-05T12:32:30.011505",
+              "pass_fail": {},
+              "metrics": {
+                "test_name": "clustering_analysis",
+                "timestamp": "2025-08-05T12:32:30.011460",
+                "pass_fail": {
+                  "clustering_analysis_complete": true,
+                  "optimal_clusters_found": true,
+                  "data_suitable_for_clustering": true
+                },
+                "metrics": {
+                  "cluster_analysis": [
+                    {
+                      "n_clusters": 2,
+                      "inertia": 3598.73627549523,
+                      "silhouette_score": 0.4949360534569132,
+                      "cluster_sizes": [
+                        221,
+                        379
+                      ]
+                    },
+                    {
+                      "n_clusters": 3,
+                      "inertia": 1256.1536692296938,
+                      "silhouette_score": 0.6146459240196681,
+                      "cluster_sizes": [
+                        203,
+                        201,
+                        196
+                      ]
+                    },
+                    {
+                      "n_clusters": 4,
+                      "inertia": 1089.585363719116,
+                      "silhouette_score": 0.4976237263301323,
+                      "cluster_sizes": [
+                        194,
+                        198,
+                        102,
+                        106
+                      ]
+                    },
+                    {
+                      "n_clusters": 5,
+                      "inertia": 947.235688819925,
+                      "silhouette_score": 0.4133081285665392,
+                      "cluster_sizes": [
+                        104,
+                        198,
+                        99,
+                        98,
+                        101
+                      ]
+                    }
+                  ],
+                  "optimal_clusters": 3,
+                  "optimal_silhouette": 0.6146459240196681
+                },
+                "evidence": {
+                  "data_shape": [
+                    600,
+                    2
+                  ],
+                  "max_clusters_tested": 5,
+                  "silhouette_scores": [
+                    0.4949360534569132,
+                    0.6146459240196681,
+                    0.4976237263301323,
+                    0.4133081285665392
+                  ]
+                },
+                "falsification_notes": ""
+              },
+              "summary": "No pass/fail criteria defined"
+            },
+            "execution_time": 1.4374744892120361,
+            "timestamp": "2025-08-05T12:32:30.011513"
+          },
+          "dimensionality_analysis": {
+            "test_name": "dimensionality_analysis",
+            "result": {
+              "test_name": "dimensionality_analysis",
+              "timestamp": "2025-08-05T12:32:30.012569",
+              "pass_fail": {
+                "dimensionality_analysis_complete": true,
+                "data_has_multiple_features": true,
+                "dimensionality_reduction_possible": false
+              },
+              "metrics": {
+                "dimensions": {
+                  "samples": 100,
+                  "features": 3,
+                  "total_elements": 300
+                },
+                "effective_dimensions": {
+                  "dimensions_for_90_percent_variance": 3,
+                  "dimensions_for_95_percent_variance": 3,
+                  "dimensions_for_99_percent_variance": 3,
+                  "dimensionality_reduction_potential": 0
+                }
+              },
+              "evidence": {
+                "data_shape": [
+                  100,
+                  3
+                ],
+                "pca_components": 3
+              },
+              "falsification_notes": ""
+            },
+            "truth_table": {
+              "test_name": "dimensionality_analysis",
+              "timestamp": "2025-08-05T12:32:30.012594",
+              "pass_fail": {},
+              "metrics": {
+                "test_name": "dimensionality_analysis",
+                "timestamp": "2025-08-05T12:32:30.012569",
+                "pass_fail": {
+                  "dimensionality_analysis_complete": true,
+                  "data_has_multiple_features": true,
+                  "dimensionality_reduction_possible": false
+                },
+                "metrics": {
+                  "dimensions": {
+                    "samples": 100,
+                    "features": 3,
+                    "total_elements": 300
+                  },
+                  "effective_dimensions": {
+                    "dimensions_for_90_percent_variance": 3,
+                    "dimensions_for_95_percent_variance": 3,
+                    "dimensions_for_99_percent_variance": 3,
+                    "dimensionality_reduction_potential": 0
+                  }
+                },
+                "evidence": {
+                  "data_shape": [
+                    100,
+                    3
+                  ],
+                  "pca_components": 3
+                },
+                "falsification_notes": ""
+              },
+              "summary": "No pass/fail criteria defined"
+            },
+            "execution_time": 0.0008625984191894531,
+            "timestamp": "2025-08-05T12:32:30.012602"
+          },
+          "custom_test_template": {
+            "test_name": "custom_test_template",
+            "result": {
+              "custom_metric": 42.0,
+              "threshold": 5.0,
+              "analysis_complete": true,
+              "pass_fail": {
+                "custom_test_passed": true,
+                "analysis_complete": true
+              }
+            },
+            "truth_table": {
+              "test_name": "custom_test_template",
+              "timestamp": "2025-08-05T12:32:30.012838",
+              "pass_fail": {},
+              "metrics": {
+                "custom_metric": 42.0,
+                "threshold": 5.0,
+                "analysis_complete": true,
+                "pass_fail": {
+                  "custom_test_passed": true,
+                  "analysis_complete": true
+                }
+              },
+              "summary": "No pass/fail criteria defined"
+            },
+            "execution_time": 2.384185791015625e-06,
+            "timestamp": "2025-08-05T12:32:30.012846"
+          },
+          "enzyme_sequence_analysis": {
+            "test_name": "enzyme_sequence_analysis",
+            "result": {
+              "test_name": "enzyme_sequence_analysis",
+              "timestamp": "2025-08-05T12:32:30.013378",
+              "pass_fail": {
+                "sequence_parsed": false,
+                "analysis_complete": false
+              },
+              "metrics": {
+                "error": "Analysis failed: [Errno 22] Invalid argument: '>enzyme_0\\nVNARDGQGAYGIRQSYSWAELYVCERESRVHRMWIADFVNNWKMTSELRW\\n>enzyme_1\\nDFMFHGPCWMYFKGTWIHFRLSKHMKTKDIWYSHHYPDNIPYSHENTATC\\n>enzyme_2\\nGNMMVIHQSNKYSWSKPFWLHKQRPLQNWGNPISCHNHWQKVMSWMVMEV\\n>enzyme_3\\nWPELFDSIHWQRTAGRNYCFKYQVICKHVSFRFMQWDLGDCPVCRFRTCV\\n>enzyme_4\\nRYDFMKFAQFIQSGICWKFFWESSSHVADIAHHIWTMRKTMGKVYCEVAM\\n>enzyme_5\\nDIFYFMNKPYDPMMYHTSQAMPACKPFKPFRHQSGCSWFEQGIDEACPKN\\n>enzyme_6\\nLLVNSGLRKCVNDHKIGAQSSEGRIAPVVPQMHVETWQLGVEMPILMDRI\\n>enzyme_7\\nYVAIDAYSKTSGHSILQMCNYYPRNPISDPNWCAIKITKGRPNPHVQMQT\\n>enzyme_8\\nCWSLIFHPSFSRKNIPFQSMYNRNKADNYPGLLSASEGWCVLEARLVSPR\\n>enzyme_9\\nCYEAHMLAMLQQHMECHWQWHNDRFIQEHHVQINLQKGFAAYTMNDGMPM'"
+              },
+              "evidence": {
+                "error_type": "OSError"
+              },
+              "falsification_notes": "Exception during sequence analysis: [Errno 22] Invalid argument: '>enzyme_0\\nVNARDGQGAYGIRQSYSWAELYVCERESRVHRMWIADFVNNWKMTSELRW\\n>enzyme_1\\nDFMFHGPCWMYFKGTWIHFRLSKHMKTKDIWYSHHYPDNIPYSHENTATC\\n>enzyme_2\\nGNMMVIHQSNKYSWSKPFWLHKQRPLQNWGNPISCHNHWQKVMSWMVMEV\\n>enzyme_3\\nWPELFDSIHWQRTAGRNYCFKYQVICKHVSFRFMQWDLGDCPVCRFRTCV\\n>enzyme_4\\nRYDFMKFAQFIQSGICWKFFWESSSHVADIAHHIWTMRKTMGKVYCEVAM\\n>enzyme_5\\nDIFYFMNKPYDPMMYHTSQAMPACKPFKPFRHQSGCSWFEQGIDEACPKN\\n>enzyme_6\\nLLVNSGLRKCVNDHKIGAQSSEGRIAPVVPQMHVETWQLGVEMPILMDRI\\n>enzyme_7\\nYVAIDAYSKTSGHSILQMCNYYPRNPISDPNWCAIKITKGRPNPHVQMQT\\n>enzyme_8\\nCWSLIFHPSFSRKNIPFQSMYNRNKADNYPGLLSASEGWCVLEARLVSPR\\n>enzyme_9\\nCYEAHMLAMLQQHMECHWQWHNDRFIQEHHVQINLQKGFAAYTMNDGMPM'"
+            },
+            "truth_table": {
+              "test_name": "enzyme_sequence_analysis",
+              "timestamp": "2025-08-05T12:32:30.013401",
+              "pass_fail": {},
+              "metrics": {
+                "test_name": "enzyme_sequence_analysis",
+                "timestamp": "2025-08-05T12:32:30.013378",
+                "pass_fail": {
+                  "sequence_parsed": false,
+                  "analysis_complete": false
+                },
+                "metrics": {
+                  "error": "Analysis failed: [Errno 22] Invalid argument: '>enzyme_0\\nVNARDGQGAYGIRQSYSWAELYVCERESRVHRMWIADFVNNWKMTSELRW\\n>enzyme_1\\nDFMFHGPCWMYFKGTWIHFRLSKHMKTKDIWYSHHYPDNIPYSHENTATC\\n>enzyme_2\\nGNMMVIHQSNKYSWSKPFWLHKQRPLQNWGNPISCHNHWQKVMSWMVMEV\\n>enzyme_3\\nWPELFDSIHWQRTAGRNYCFKYQVICKHVSFRFMQWDLGDCPVCRFRTCV\\n>enzyme_4\\nRYDFMKFAQFIQSGICWKFFWESSSHVADIAHHIWTMRKTMGKVYCEVAM\\n>enzyme_5\\nDIFYFMNKPYDPMMYHTSQAMPACKPFKPFRHQSGCSWFEQGIDEACPKN\\n>enzyme_6\\nLLVNSGLRKCVNDHKIGAQSSEGRIAPVVPQMHVETWQLGVEMPILMDRI\\n>enzyme_7\\nYVAIDAYSKTSGHSILQMCNYYPRNPISDPNWCAIKITKGRPNPHVQMQT\\n>enzyme_8\\nCWSLIFHPSFSRKNIPFQSMYNRNKADNYPGLLSASEGWCVLEARLVSPR\\n>enzyme_9\\nCYEAHMLAMLQQHMECHWQWHNDRFIQEHHVQINLQKGFAAYTMNDGMPM'"
+                },
+                "evidence": {
+                  "error_type": "OSError"
+                },
+                "falsification_notes": "Exception during sequence analysis: [Errno 22] Invalid argument: '>enzyme_0\\nVNARDGQGAYGIRQSYSWAELYVCERESRVHRMWIADFVNNWKMTSELRW\\n>enzyme_1\\nDFMFHGPCWMYFKGTWIHFRLSKHMKTKDIWYSHHYPDNIPYSHENTATC\\n>enzyme_2\\nGNMMVIHQSNKYSWSKPFWLHKQRPLQNWGNPISCHNHWQKVMSWMVMEV\\n>enzyme_3\\nWPELFDSIHWQRTAGRNYCFKYQVICKHVSFRFMQWDLGDCPVCRFRTCV\\n>enzyme_4\\nRYDFMKFAQFIQSGICWKFFWESSSHVADIAHHIWTMRKTMGKVYCEVAM\\n>enzyme_5\\nDIFYFMNKPYDPMMYHTSQAMPACKPFKPFRHQSGCSWFEQGIDEACPKN\\n>enzyme_6\\nLLVNSGLRKCVNDHKIGAQSSEGRIAPVVPQMHVETWQLGVEMPILMDRI\\n>enzyme_7\\nYVAIDAYSKTSGHSILQMCNYYPRNPISDPNWCAIKITKGRPNPHVQMQT\\n>enzyme_8\\nCWSLIFHPSFSRKNIPFQSMYNRNKADNYPGLLSASEGWCVLEARLVSPR\\n>enzyme_9\\nCYEAHMLAMLQQHMECHWQWHNDRFIQEHHVQINLQKGFAAYTMNDGMPM'"
+              },
+              "summary": "No pass/fail criteria defined"
+            },
+            "execution_time": 0.0004048347473144531,
+            "timestamp": "2025-08-05T12:32:30.013410"
+          },
+          "enzyme_structure_validation": {
+            "test_name": "enzyme_structure_validation",
+            "result": {
+              "test_name": "enzyme_structure_validation",
+              "timestamp": "2025-08-05T12:32:30.013721",
+              "pass_fail": {
+                "structure_loaded": false,
+                "validation_complete": false
+              },
+              "metrics": {
+                "error": "PDB file not found: >enzyme_0\nVNARDGQGAYGIRQSYSWAELYVCERESRVHRMWIADFVNNWKMTSELRW\n>enzyme_1\nDFMFHGPCWMYFKGTWIHFRLSKHMKTKDIWYSHHYPDNIPYSHENTATC\n>enzyme_2\nGNMMVIHQSNKYSWSKPFWLHKQRPLQNWGNPISCHNHWQKVMSWMVMEV\n>enzyme_3\nWPELFDSIHWQRTAGRNYCFKYQVICKHVSFRFMQWDLGDCPVCRFRTCV\n>enzyme_4\nRYDFMKFAQFIQSGICWKFFWESSSHVADIAHHIWTMRKTMGKVYCEVAM\n>enzyme_5\nDIFYFMNKPYDPMMYHTSQAMPACKPFKPFRHQSGCSWFEQGIDEACPKN\n>enzyme_6\nLLVNSGLRKCVNDHKIGAQSSEGRIAPVVPQMHVETWQLGVEMPILMDRI\n>enzyme_7\nYVAIDAYSKTSGHSILQMCNYYPRNPISDPNWCAIKITKGRPNPHVQMQT\n>enzyme_8\nCWSLIFHPSFSRKNIPFQSMYNRNKADNYPGLLSASEGWCVLEARLVSPR\n>enzyme_9\nCYEAHMLAMLQQHMECHWQWHNDRFIQEHHVQINLQKGFAAYTMNDGMPM"
+              },
+              "evidence": {
+                "file_path": ">enzyme_0\nVNARDGQGAYGIRQSYSWAELYVCERESRVHRMWIADFVNNWKMTSELRW\n>enzyme_1\nDFMFHGPCWMYFKGTWIHFRLSKHMKTKDIWYSHHYPDNIPYSHENTATC\n>enzyme_2\nGNMMVIHQSNKYSWSKPFWLHKQRPLQNWGNPISCHNHWQKVMSWMVMEV\n>enzyme_3\nWPELFDSIHWQRTAGRNYCFKYQVICKHVSFRFMQWDLGDCPVCRFRTCV\n>enzyme_4\nRYDFMKFAQFIQSGICWKFFWESSSHVADIAHHIWTMRKTMGKVYCEVAM\n>enzyme_5\nDIFYFMNKPYDPMMYHTSQAMPACKPFKPFRHQSGCSWFEQGIDEACPKN\n>enzyme_6\nLLVNSGLRKCVNDHKIGAQSSEGRIAPVVPQMHVETWQLGVEMPILMDRI\n>enzyme_7\nYVAIDAYSKTSGHSILQMCNYYPRNPISDPNWCAIKITKGRPNPHVQMQT\n>enzyme_8\nCWSLIFHPSFSRKNIPFQSMYNRNKADNYPGLLSASEGWCVLEARLVSPR\n>enzyme_9\nCYEAHMLAMLQQHMECHWQWHNDRFIQEHHVQINLQKGFAAYTMNDGMPM"
+              },
+              "falsification_notes": "PDB file does not exist"
+            },
+            "truth_table": {
+              "test_name": "enzyme_structure_validation",
+              "timestamp": "2025-08-05T12:32:30.013743",
+              "pass_fail": {},
+              "metrics": {
+                "test_name": "enzyme_structure_validation",
+                "timestamp": "2025-08-05T12:32:30.013721",
+                "pass_fail": {
+                  "structure_loaded": false,
+                  "validation_complete": false
+                },
+                "metrics": {
+                  "error": "PDB file not found: >enzyme_0\nVNARDGQGAYGIRQSYSWAELYVCERESRVHRMWIADFVNNWKMTSELRW\n>enzyme_1\nDFMFHGPCWMYFKGTWIHFRLSKHMKTKDIWYSHHYPDNIPYSHENTATC\n>enzyme_2\nGNMMVIHQSNKYSWSKPFWLHKQRPLQNWGNPISCHNHWQKVMSWMVMEV\n>enzyme_3\nWPELFDSIHWQRTAGRNYCFKYQVICKHVSFRFMQWDLGDCPVCRFRTCV\n>enzyme_4\nRYDFMKFAQFIQSGICWKFFWESSSHVADIAHHIWTMRKTMGKVYCEVAM\n>enzyme_5\nDIFYFMNKPYDPMMYHTSQAMPACKPFKPFRHQSGCSWFEQGIDEACPKN\n>enzyme_6\nLLVNSGLRKCVNDHKIGAQSSEGRIAPVVPQMHVETWQLGVEMPILMDRI\n>enzyme_7\nYVAIDAYSKTSGHSILQMCNYYPRNPISDPNWCAIKITKGRPNPHVQMQT\n>enzyme_8\nCWSLIFHPSFSRKNIPFQSMYNRNKADNYPGLLSASEGWCVLEARLVSPR\n>enzyme_9\nCYEAHMLAMLQQHMECHWQWHNDRFIQEHHVQINLQKGFAAYTMNDGMPM"
+                },
+                "evidence": {
+                  "file_path": ">enzyme_0\nVNARDGQGAYGIRQSYSWAELYVCERESRVHRMWIADFVNNWKMTSELRW\n>enzyme_1\nDFMFHGPCWMYFKGTWIHFRLSKHMKTKDIWYSHHYPDNIPYSHENTATC\n>enzyme_2\nGNMMVIHQSNKYSWSKPFWLHKQRPLQNWGNPISCHNHWQKVMSWMVMEV\n>enzyme_3\nWPELFDSIHWQRTAGRNYCFKYQVICKHVSFRFMQWDLGDCPVCRFRTCV\n>enzyme_4\nRYDFMKFAQFIQSGICWKFFWESSSHVADIAHHIWTMRKTMGKVYCEVAM\n>enzyme_5\nDIFYFMNKPYDPMMYHTSQAMPACKPFKPFRHQSGCSWFEQGIDEACPKN\n>enzyme_6\nLLVNSGLRKCVNDHKIGAQSSEGRIAPVVPQMHVETWQLGVEMPILMDRI\n>enzyme_7\nYVAIDAYSKTSGHSILQMCNYYPRNPISDPNWCAIKITKGRPNPHVQMQT\n>enzyme_8\nCWSLIFHPSFSRKNIPFQSMYNRNKADNYPGLLSASEGWCVLEARLVSPR\n>enzyme_9\nCYEAHMLAMLQQHMECHWQWHNDRFIQEHHVQINLQKGFAAYTMNDGMPM"
+                },
+                "falsification_notes": "PDB file does not exist"
+              },
+              "summary": "No pass/fail criteria defined"
+            },
+            "execution_time": 6.246566772460938e-05,
+            "timestamp": "2025-08-05T12:32:30.013750"
+          },
+          "enzyme_mutation_analysis": {
+            "test_name": "enzyme_mutation_analysis",
+            "error": "enzyme_mutation_analysis() missing 1 required positional argument: 'mutant_fasta'",
+            "timestamp": "2025-08-05T12:32:30.013975"
+          },
+          "enzyme_activity_prediction": {
+            "test_name": "enzyme_activity_prediction",
+            "error": "enzyme_activity_prediction() missing 1 required positional argument: 'structure_data'",
+            "timestamp": "2025-08-05T12:32:30.014082"
+          },
+          "climate_trend_analysis": {
+            "test_name": "climate_trend_analysis",
+            "result": {
+              "test_name": "climate_trend_analysis",
+              "pass_fail": {
+                "temperature_trend_detected": true,
+                "temperature_warming_significant": true,
+                "co2_trend_detected": false,
+                "co2_increase_significant": false,
+                "warming_rate_above_threshold": false,
+                "co2_increase_above_threshold": false,
+                "seasonal_patterns_detected": true
+              },
+              "metrics": {
+                "temperature_analysis": {
+                  "trend": "warming",
+                  "slope": 0.006138140134693671,
+                  "r_squared": 0.42492727852721135,
+                  "p_value": 4.888592408274161e-122,
+                  "mean": 3.8299316645490857,
+                  "std": 2.7182453459436493
+                },
+                "co2_analysis": {
+                  "trend": null,
+                  "slope": null,
+                  "r_squared": null,
+                  "p_value": null,
+                  "mean": null,
+                  "std": null
+                },
+                "detrending_analysis": {
+                  "temp_detrended_std": 2.0613419272518976,
+                  "co2_detrended_std": null
+                },
+                "seasonal_analysis": {
+                  "temp_seasonal_strength": 0.2304901019234764,
+                  "co2_seasonal_strength": null
+                }
+              },
+              "evidence": {
+                "data_length": 1000,
+                "temp_data_length": 1000,
+                "co2_data_length": 0,
+                "time_span_years": null
+              },
+              "falsification_notes": "",
+              "timestamp": "2025-08-05T12:32:30.016664"
+            },
+            "truth_table": {
+              "test_name": "climate_trend_analysis",
+              "timestamp": "2025-08-05T12:32:30.016758",
+              "pass_fail": {},
+              "metrics": {
+                "test_name": "climate_trend_analysis",
+                "pass_fail": {
+                  "temperature_trend_detected": true,
+                  "temperature_warming_significant": true,
+                  "co2_trend_detected": false,
+                  "co2_increase_significant": false,
+                  "warming_rate_above_threshold": false,
+                  "co2_increase_above_threshold": false,
+                  "seasonal_patterns_detected": true
+                },
+                "metrics": {
+                  "temperature_analysis": {
+                    "trend": "warming",
+                    "slope": 0.006138140134693671,
+                    "r_squared": 0.42492727852721135,
+                    "p_value": 4.888592408274161e-122,
+                    "mean": 3.8299316645490857,
+                    "std": 2.7182453459436493
+                  },
+                  "co2_analysis": {
+                    "trend": null,
+                    "slope": null,
+                    "r_squared": null,
+                    "p_value": null,
+                    "mean": null,
+                    "std": null
+                  },
+                  "detrending_analysis": {
+                    "temp_detrended_std": 2.0613419272518976,
+                    "co2_detrended_std": null
+                  },
+                  "seasonal_analysis": {
+                    "temp_seasonal_strength": 0.2304901019234764,
+                    "co2_seasonal_strength": null
+                  }
+                },
+                "evidence": {
+                  "data_length": 1000,
+                  "temp_data_length": 1000,
+                  "co2_data_length": 0,
+                  "time_span_years": null
+                },
+                "falsification_notes": "",
+                "timestamp": "2025-08-05T12:32:30.016664"
+              },
+              "summary": "No pass/fail criteria defined"
+            },
+            "execution_time": 0.002536773681640625,
+            "timestamp": "2025-08-05T12:32:30.016768"
+          },
+          "climate_change_detection": {
+            "test_name": "climate_change_detection",
+            "result": {
+              "test_name": "climate_change_detection",
+              "pass_fail": {
+                "trend_detected": true,
+                "trend_significant": true,
+                "warming_detected": true,
+                "stationarity_tested": false,
+                "non_stationary": false,
+                "breakpoints_detected": true
+              },
+              "metrics": {
+                "mann_kendall_test": {
+                  "tau": 0.4627187187187188,
+                  "p_value": 2.0708499026811232e-106
+                },
+                "augmented_dickey_fuller": null,
+                "breakpoint_analysis": {
+                  "num_breakpoints": 40,
+                  "breakpoint_positions": [
+                    7,
+                    27,
+                    38,
+                    44,
+                    62,
+                    96,
+                    194,
+                    201,
+                    208,
+                    229,
+                    230,
+                    238,
+                    291,
+                    308,
+                    321,
+                    354,
+                    412,
+                    414,
+                    434,
+                    459,
+                    485,
+                    509,
+                    518,
+                    613,
+                    619,
+                    623,
+                    690,
+                    727,
+                    729,
+                    734,
+                    738,
+                    752,
+                    775,
+                    780,
+                    823,
+                    825,
+                    920,
+                    922,
+                    952,
+                    965
+                  ],
+                  "detection_threshold": 3.8849634271042794
+                },
+                "trend_summary": {
+                  "trend_direction": "increasing",
+                  "trend_strength": 0.4627187187187188,
+                  "significance_level": 2.0708499026811232e-106
+                }
+              },
+              "evidence": {
+                "data_length": 1000,
+                "time_span": 1000,
+                "data_range": 15.909735644029293,
+                "data_variance": 7.3962540147590685
+              },
+              "falsification_notes": "",
+              "timestamp": "2025-08-05T12:32:30.041838"
+            },
+            "truth_table": {
+              "test_name": "climate_change_detection",
+              "timestamp": "2025-08-05T12:32:30.041874",
+              "pass_fail": {},
+              "metrics": {
+                "test_name": "climate_change_detection",
+                "pass_fail": {
+                  "trend_detected": true,
+                  "trend_significant": true,
+                  "warming_detected": true,
+                  "stationarity_tested": false,
+                  "non_stationary": false,
+                  "breakpoints_detected": true
+                },
+                "metrics": {
+                  "mann_kendall_test": {
+                    "tau": 0.4627187187187188,
+                    "p_value": 2.0708499026811232e-106
+                  },
+                  "augmented_dickey_fuller": null,
+                  "breakpoint_analysis": {
+                    "num_breakpoints": 40,
+                    "breakpoint_positions": [
+                      7,
+                      27,
+                      38,
+                      44,
+                      62,
+                      96,
+                      194,
+                      201,
+                      208,
+                      229,
+                      230,
+                      238,
+                      291,
+                      308,
+                      321,
+                      354,
+                      412,
+                      414,
+                      434,
+                      459,
+                      485,
+                      509,
+                      518,
+                      613,
+                      619,
+                      623,
+                      690,
+                      727,
+                      729,
+                      734,
+                      738,
+                      752,
+                      775,
+                      780,
+                      823,
+                      825,
+                      920,
+                      922,
+                      952,
+                      965
+                    ],
+                    "detection_threshold": 3.8849634271042794
+                  },
+                  "trend_summary": {
+                    "trend_direction": "increasing",
+                    "trend_strength": 0.4627187187187188,
+                    "significance_level": 2.0708499026811232e-106
+                  }
+                },
+                "evidence": {
+                  "data_length": 1000,
+                  "time_span": 1000,
+                  "data_range": 15.909735644029293,
+                  "data_variance": 7.3962540147590685
+                },
+                "falsification_notes": "",
+                "timestamp": "2025-08-05T12:32:30.041838"
+              },
+              "summary": "No pass/fail criteria defined"
+            },
+            "execution_time": 0.024878501892089844,
+            "timestamp": "2025-08-05T12:32:30.041880"
+          },
+          "seasonal_climate_analysis": {
+            "test_name": "seasonal_climate_analysis",
+            "result": {
+              "test_name": "seasonal_climate_analysis",
+              "pass_fail": {
+                "seasonal_decomposition_successful": true,
+                "strong_seasonal_pattern": false,
+                "trend_dominates_seasonality": true,
+                "monthly_statistics_available": false
+              },
+              "metrics": {
+                "seasonal_analysis": {
+                  "peak_month": 3,
+                  "trough_month": 7,
+                  "amplitude": 0.8457810356475963,
+                  "seasonal_strength": 0.08479370792170376,
+                  "trend_strength": 0.6939019529112731,
+                  "residual_strength": 0.717619159251949
+                },
+                "monthly_statistics": null,
+                "decomposition_summary": {
+                  "seasonal_strength": 0.08479370792170376,
+                  "trend_strength": 0.6939019529112731,
+                  "residual_strength": 0.717619159251949
+                }
+              },
+              "evidence": {
+                "data_length": 1000,
+                "has_monthly_data": false,
+                "time_span_years": 83.33333333333333
+              },
+              "falsification_notes": "",
+              "timestamp": "2025-08-05T12:32:30.044299"
+            },
+            "truth_table": {
+              "test_name": "seasonal_climate_analysis",
+              "timestamp": "2025-08-05T12:32:30.044347",
+              "pass_fail": {},
+              "metrics": {
+                "test_name": "seasonal_climate_analysis",
+                "pass_fail": {
+                  "seasonal_decomposition_successful": true,
+                  "strong_seasonal_pattern": false,
+                  "trend_dominates_seasonality": true,
+                  "monthly_statistics_available": false
+                },
+                "metrics": {
+                  "seasonal_analysis": {
+                    "peak_month": 3,
+                    "trough_month": 7,
+                    "amplitude": 0.8457810356475963,
+                    "seasonal_strength": 0.08479370792170376,
+                    "trend_strength": 0.6939019529112731,
+                    "residual_strength": 0.717619159251949
+                  },
+                  "monthly_statistics": null,
+                  "decomposition_summary": {
+                    "seasonal_strength": 0.08479370792170376,
+                    "trend_strength": 0.6939019529112731,
+                    "residual_strength": 0.717619159251949
+                  }
+                },
+                "evidence": {
+                  "data_length": 1000,
+                  "has_monthly_data": false,
+                  "time_span_years": 83.33333333333333
+                },
+                "falsification_notes": "",
+                "timestamp": "2025-08-05T12:32:30.044299"
+              },
+              "summary": "No pass/fail criteria defined"
+            },
+            "execution_time": 0.002105712890625,
+            "timestamp": "2025-08-05T12:32:30.044355"
+          },
+          "heat_warning_correlation_index": {
+            "test_name": "heat_warning_correlation_index",
+            "result": {
+              "test_name": "heat_warning_correlation_index",
+              "pass_fail": {
+                "data_loaded": false,
+                "analysis_failed": true
+              },
+              "metrics": {
+                "error": "Shape of passed values is (500, 5), indices imply (500, 4)"
+              },
+              "evidence": {},
+              "falsification_notes": "HWCI analysis failed: Shape of passed values is (500, 5), indices imply (500, 4)",
+              "timestamp": "2025-08-05T12:32:30.044691"
+            },
+            "truth_table": {
+              "test_name": "heat_warning_correlation_index",
+              "timestamp": "2025-08-05T12:32:30.044714",
+              "pass_fail": {},
+              "metrics": {
+                "test_name": "heat_warning_correlation_index",
+                "pass_fail": {
+                  "data_loaded": false,
+                  "analysis_failed": true
+                },
+                "metrics": {
+                  "error": "Shape of passed values is (500, 5), indices imply (500, 4)"
+                },
+                "evidence": {},
+                "falsification_notes": "HWCI analysis failed: Shape of passed values is (500, 5), indices imply (500, 4)",
+                "timestamp": "2025-08-05T12:32:30.044691"
+              },
+              "summary": "No pass/fail criteria defined"
+            },
+            "execution_time": 0.00014328956604003906,
+            "timestamp": "2025-08-05T12:32:30.044721"
+          },
+          "stress_perturbation_analysis": {
+            "test_name": "stress_perturbation_analysis",
+            "result": {
+              "test_name": "stress_perturbation_analysis",
+              "pass_fail": {
+                "data_loaded": false,
+                "analysis_failed": true
+              },
+              "metrics": {
+                "error": "Shape of passed values is (500, 5), indices imply (500, 4)"
+              },
+              "evidence": {},
+              "falsification_notes": "Stress perturbation analysis failed: Shape of passed values is (500, 5), indices imply (500, 4)",
+              "timestamp": "2025-08-05T12:32:30.045076"
+            },
+            "truth_table": {
+              "test_name": "stress_perturbation_analysis",
+              "timestamp": "2025-08-05T12:32:30.045097",
+              "pass_fail": {},
+              "metrics": {
+                "test_name": "stress_perturbation_analysis",
+                "pass_fail": {
+                  "data_loaded": false,
+                  "analysis_failed": true
+                },
+                "metrics": {
+                  "error": "Shape of passed values is (500, 5), indices imply (500, 4)"
+                },
+                "evidence": {},
+                "falsification_notes": "Stress perturbation analysis failed: Shape of passed values is (500, 5), indices imply (500, 4)",
+                "timestamp": "2025-08-05T12:32:30.045076"
+              },
+              "summary": "No pass/fail criteria defined"
+            },
+            "execution_time": 0.00023436546325683594,
+            "timestamp": "2025-08-05T12:32:30.045104"
+          },
+          "seismic_modulator_analysis": {
+            "test_name": "seismic_modulator_analysis",
+            "result": {
+              "test_name": "seismic_modulator_analysis",
+              "pass_fail": {
+                "data_loaded": true,
+                "multiple_modulators_present": true,
+                "significant_total_effect": true,
+                "probability_shift_acceptable": false,
+                "observable_modulators": true
+              },
+              "metrics": {
+                "total_delta_sigma_kpa": 531.9856661579408,
+                "combined_probability_shift_percent": 10.639713323158817,
+                "modulator_count": 5,
+                "observable_modulator_count": 3,
+                "sigma_crit_kpa": 5000.0,
+                "modulator_effects": {
+                  "solar_geomagnetic": {
+                    "delta_sigma_kpa": 232.5,
+                    "event_count": 465,
+                    "evidence_quality": "Moderate",
+                    "observability": true
+                  },
+                  "extreme_rainfall": {
+                    "delta_sigma_kpa": 0.0,
+                    "event_count": 0,
+                    "evidence_quality": "Moderate",
+                    "observability": false
+                  },
+                  "sea_level_rise": {
+                    "delta_sigma_kpa": 0.30442857033987997,
+                    "rate_mm_per_year": 1014.7619011329332,
+                    "evidence_quality": "Moderate",
+                    "observability": true
+                  },
+                  "data_center_waste_heat": {
+                    "delta_sigma_kpa": 299.1811771015303,
+                    "total_mw": 29918.11771015303,
+                    "evidence_quality": "Emerging",
+                    "observability": true
+                  },
+                  "gia": {
+                    "delta_sigma_kpa": 6.0486070682249824e-05,
+                    "uplift_rate_mm_per_year": 0.02016202356074994,
+                    "evidence_quality": "High",
+                    "observability": false
+                  }
+                }
+              },
+              "evidence": {
+                "modulator_summary": "Analyzed 5 seismic modulators",
+                "total_effect": "Combined \u0394\u03c3: 532.0 kPa",
+                "probability_impact": "Combined probability shift: 10.640%",
+                "observability_status": "3 modulators observable"
+              },
+              "falsification_notes": "Seismic modulator analysis completed successfully",
+              "timestamp": "2025-08-05T12:32:30.052821"
+            },
+            "truth_table": {
+              "test_name": "seismic_modulator_analysis",
+              "timestamp": "2025-08-05T12:32:30.052874",
+              "pass_fail": {},
+              "metrics": {
+                "test_name": "seismic_modulator_analysis",
+                "pass_fail": {
+                  "data_loaded": true,
+                  "multiple_modulators_present": true,
+                  "significant_total_effect": true,
+                  "probability_shift_acceptable": false,
+                  "observable_modulators": true
+                },
+                "metrics": {
+                  "total_delta_sigma_kpa": 531.9856661579408,
+                  "combined_probability_shift_percent": 10.639713323158817,
+                  "modulator_count": 5,
+                  "observable_modulator_count": 3,
+                  "sigma_crit_kpa": 5000.0,
+                  "modulator_effects": {
+                    "solar_geomagnetic": {
+                      "delta_sigma_kpa": 232.5,
+                      "event_count": 465,
+                      "evidence_quality": "Moderate",
+                      "observability": true
+                    },
+                    "extreme_rainfall": {
+                      "delta_sigma_kpa": 0.0,
+                      "event_count": 0,
+                      "evidence_quality": "Moderate",
+                      "observability": false
+                    },
+                    "sea_level_rise": {
+                      "delta_sigma_kpa": 0.30442857033987997,
+                      "rate_mm_per_year": 1014.7619011329332,
+                      "evidence_quality": "Moderate",
+                      "observability": true
+                    },
+                    "data_center_waste_heat": {
+                      "delta_sigma_kpa": 299.1811771015303,
+                      "total_mw": 29918.11771015303,
+                      "evidence_quality": "Emerging",
+                      "observability": true
+                    },
+                    "gia": {
+                      "delta_sigma_kpa": 6.0486070682249824e-05,
+                      "uplift_rate_mm_per_year": 0.02016202356074994,
+                      "evidence_quality": "High",
+                      "observability": false
+                    }
+                  }
+                },
+                "evidence": {
+                  "modulator_summary": "Analyzed 5 seismic modulators",
+                  "total_effect": "Combined \u0394\u03c3: 532.0 kPa",
+                  "probability_impact": "Combined probability shift: 10.640%",
+                  "observability_status": "3 modulators observable"
+                },
+                "falsification_notes": "Seismic modulator analysis completed successfully",
+                "timestamp": "2025-08-05T12:32:30.052821"
+              },
+              "summary": "No pass/fail criteria defined"
+            },
+            "execution_time": 0.0075609683990478516,
+            "timestamp": "2025-08-05T12:32:30.052885"
+          },
+          "ligo_strain_analysis": {
+            "test_name": "ligo_strain_analysis",
+            "result": {
+              "time_domain_analysis": {
+                "duration": 1.0,
+                "mean_strain": -1.5357074503617517e-24,
+                "std_strain": 9.944336674568154e-22,
+                "max_strain": 3.922400251618342e-21,
+                "rms_strain": 9.944348532553479e-22
+              },
+              "frequency_domain_analysis": {
+                "dominant_frequency": 413.0,
+                "frequency_range": [
+                  20,
+                  2000
+                ],
+                "power_spectrum_max": 2.7238515306836436e-38,
+                "power_spectrum_mean": 4.050537174503364e-39
+              },
+              "snr_analysis": {
+                "snr": 2.5931963682275336,
+                "snr_threshold": 8.0,
+                "signal_power": 2.7238515306836436e-38,
+                "noise_power": 4.050537174503364e-39
+              },
+              "peak_analysis": {
+                "num_peaks": 6,
+                "peak_positions": [
+                  411,
+                  1000,
+                  1526,
+                  2570,
+                  3535,
+                  3980
+                ],
+                "peak_heights": [
+                  -3.688365291428444e-21,
+                  -3.836655548459369e-21,
+                  3.157771283044298e-21,
+                  -3.922400251618342e-21,
+                  -3.2325654325124333e-21,
+                  -3.3755791001775996e-21
+                ]
+              },
+              "detection_summary": {
+                "gravitational_wave_candidate": false,
+                "signal_quality": "low"
+              },
+              "pass_fail": {
+                "data_loaded": true,
+                "snr_above_threshold": false,
+                "frequency_in_range": true,
+                "duration_appropriate": true,
+                "peaks_detected": true,
+                "strain_sensitivity_adequate": false
+              }
+            },
+            "truth_table": {
+              "test_name": "ligo_strain_analysis",
+              "timestamp": "2025-08-05T12:32:30.053746",
+              "pass_fail": {},
+              "metrics": {
+                "time_domain_analysis": {
+                  "duration": 1.0,
+                  "mean_strain": -1.5357074503617517e-24,
+                  "std_strain": 9.944336674568154e-22,
+                  "max_strain": 3.922400251618342e-21,
+                  "rms_strain": 9.944348532553479e-22
+                },
+                "frequency_domain_analysis": {
+                  "dominant_frequency": 413.0,
+                  "frequency_range": [
+                    20,
+                    2000
+                  ],
+                  "power_spectrum_max": 2.7238515306836436e-38,
+                  "power_spectrum_mean": 4.050537174503364e-39
+                },
+                "snr_analysis": {
+                  "snr": 2.5931963682275336,
+                  "snr_threshold": 8.0,
+                  "signal_power": 2.7238515306836436e-38,
+                  "noise_power": 4.050537174503364e-39
+                },
+                "peak_analysis": {
+                  "num_peaks": 6,
+                  "peak_positions": [
+                    411,
+                    1000,
+                    1526,
+                    2570,
+                    3535,
+                    3980
+                  ],
+                  "peak_heights": [
+                    -3.688365291428444e-21,
+                    -3.836655548459369e-21,
+                    3.157771283044298e-21,
+                    -3.922400251618342e-21,
+                    -3.2325654325124333e-21,
+                    -3.3755791001775996e-21
+                  ]
+                },
+                "detection_summary": {
+                  "gravitational_wave_candidate": false,
+                  "signal_quality": "low"
+                },
+                "pass_fail": {
+                  "data_loaded": true,
+                  "snr_above_threshold": false,
+                  "frequency_in_range": true,
+                  "duration_appropriate": true,
+                  "peaks_detected": true,
+                  "strain_sensitivity_adequate": false
+                }
+              },
+              "summary": "No pass/fail criteria defined"
+            },
+            "execution_time": 0.000518798828125,
+            "timestamp": "2025-08-05T12:32:30.053755"
+          },
+          "particle_physics_analysis": {
+            "test_name": "particle_physics_analysis",
+            "result": {
+              "energy_analysis": {
+                "mean_energy": -0.12903779146602523,
+                "std_energy": 1.0502559395275572,
+                "max_energy": 2.0355509517844705,
+                "min_energy": -3.0991588814149167
+              },
+              "momentum_analysis": {
+                "mean_momentum": 1.1296476896181262,
+                "std_momentum": 0.56212008720604,
+                "max_momentum": 2.7531675577213317
+              },
+              "invariant_mass_analysis": {},
+              "data_summary": {
+                "num_events": 100,
+                "num_observables": 3,
+                "data_completeness": "partial"
+              },
+              "pass_fail": {
+                "data_loaded": true,
+                "energy_analysis_complete": true,
+                "momentum_analysis_complete": true,
+                "mass_analysis_complete": false,
+                "data_quality_adequate": false
+              }
+            },
+            "truth_table": {
+              "test_name": "particle_physics_analysis",
+              "timestamp": "2025-08-05T12:32:30.054167",
+              "pass_fail": {},
+              "metrics": {
+                "energy_analysis": {
+                  "mean_energy": -0.12903779146602523,
+                  "std_energy": 1.0502559395275572,
+                  "max_energy": 2.0355509517844705,
+                  "min_energy": -3.0991588814149167
+                },
+                "momentum_analysis": {
+                  "mean_momentum": 1.1296476896181262,
+                  "std_momentum": 0.56212008720604,
+                  "max_momentum": 2.7531675577213317
+                },
+                "invariant_mass_analysis": {},
+                "data_summary": {
+                  "num_events": 100,
+                  "num_observables": 3,
+                  "data_completeness": "partial"
+                },
+                "pass_fail": {
+                  "data_loaded": true,
+                  "energy_analysis_complete": true,
+                  "momentum_analysis_complete": true,
+                  "mass_analysis_complete": false,
+                  "data_quality_adequate": false
+                }
+              },
+              "summary": "No pass/fail criteria defined"
+            },
+            "execution_time": 0.00013637542724609375,
+            "timestamp": "2025-08-05T12:32:30.054178"
+          },
+          "cosmology_analysis": {
+            "test_name": "cosmology_analysis",
+            "result": {
+              "redshift_analysis": {
+                "mean_redshift": -0.12903779146602523,
+                "std_redshift": 1.0502559395275572,
+                "max_redshift": 2.0355509517844705,
+                "min_redshift": -3.0991588814149167
+              },
+              "distance_analysis": {
+                "mean_distance": 0.08273931264193311,
+                "std_distance": 0.8803136370297587,
+                "max_distance": 2.720951423435401,
+                "min_distance": -1.8770652208907432
+              },
+              "hubble_analysis": {
+                "mean_hubble_parameter": -227058.38687544034,
+                "std_hubble_parameter": 4323245.147590147,
+                "hubble_constant_estimate": -227058.38687544034
+              },
+              "cosmology_summary": {
+                "num_galaxies": 100,
+                "redshift_range": [
+                  -3.0991588814149167,
+                  2.0355509517844705
+                ],
+                "distance_range": [
+                  -1.8770652208907432,
+                  2.720951423435401
+                ]
+              },
+              "pass_fail": {
+                "data_loaded": true,
+                "redshift_analysis_complete": true,
+                "distance_analysis_complete": true,
+                "hubble_analysis_complete": true,
+                "data_quality_adequate": true
+              }
+            },
+            "truth_table": {
+              "test_name": "cosmology_analysis",
+              "timestamp": "2025-08-05T12:32:30.054512",
+              "pass_fail": {},
+              "metrics": {
+                "redshift_analysis": {
+                  "mean_redshift": -0.12903779146602523,
+                  "std_redshift": 1.0502559395275572,
+                  "max_redshift": 2.0355509517844705,
+                  "min_redshift": -3.0991588814149167
+                },
+                "distance_analysis": {
+                  "mean_distance": 0.08273931264193311,
+                  "std_distance": 0.8803136370297587,
+                  "max_distance": 2.720951423435401,
+                  "min_distance": -1.8770652208907432
+                },
+                "hubble_analysis": {
+                  "mean_hubble_parameter": -227058.38687544034,
+                  "std_hubble_parameter": 4323245.147590147,
+                  "hubble_constant_estimate": -227058.38687544034
+                },
+                "cosmology_summary": {
+                  "num_galaxies": 100,
+                  "redshift_range": [
+                    -3.0991588814149167,
+                    2.0355509517844705
+                  ],
+                  "distance_range": [
+                    -1.8770652208907432,
+                    2.720951423435401
+                  ]
+                },
+                "pass_fail": {
+                  "data_loaded": true,
+                  "redshift_analysis_complete": true,
+                  "distance_analysis_complete": true,
+                  "hubble_analysis_complete": true,
+                  "data_quality_adequate": true
+                }
+              },
+              "summary": "No pass/fail criteria defined"
+            },
+            "execution_time": 0.00010776519775390625,
+            "timestamp": "2025-08-05T12:32:30.054519"
+          }
+        }
+      }
+    },
+    "previous_hash": "e0645027693216c0",
+    "version": "1.0.0"
+  }
+]

@@ -1,0 +1,9 @@
+# MMH System Requirements
+# For Kai Core Integration
+
+# Core dependencies
+cryptography>=41.0.0
+
+# Optional dependencies for enhanced functionality
+# numpy>=1.24.0  # For numerical operations
+# pandas>=2.0.0   # For data manipulation 

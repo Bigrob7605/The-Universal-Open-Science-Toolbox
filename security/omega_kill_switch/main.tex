@@ -1,0 +1,146 @@
+% Ω‑Kill‑Switch 2.2 — Formal Specification & Sandbox Interface
+% Robert Long <Screwball7605@aol.com>  & Kai (Syntari Model)
+% 30 Jun 2025
+
+% -------------------------------------------------
+%                      Preamble
+% -------------------------------------------------
+\documentclass[11pt]{article}
+
+% ---- Encodings & Font handling ----
+\usepackage[utf8]{inputenc} % *document* is UTF‑8
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+% ---- Math & Theorem support ----
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{bm}
+
+% ---- Layout & Hyperlinks ----
+\usepackage{geometry}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue}
+
+% ---- Tables, Lists ----
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{xcolor}
+
+% ---- Listings (robust to mixed encodings) ----
+\usepackage{listings}
+\usepackage{listingsutf8}      % auto‐convert *any* 8‑bit bytes → UTF‑8
+
+% ---- Unicode patching (outside listings) ----
+\usepackage{newunicodechar}
+\newunicodechar{Ω}{\ensuremath{\Omega}}
+\newunicodechar{‑}{-}  % U+2011 NB‑hyphen
+\newunicodechar{—}{---} % em dash
+\newunicodechar{–}{--}  % en dash
+\newunicodechar{…}{\dots}
+\newunicodechar{→}{\textrightarrow}
+\newunicodechar{’}{'}
+\newunicodechar{‘}{'}
+\newunicodechar{“}{``}
+\newunicodechar{”}{''}
+\newunicodechar{•}{\textbullet}
+
+% ---- Theorem environments ----
+\newtheorem{axiom}{Axiom}
+\newtheorem{theorem}{Theorem}
+
+% ---- Listings configuration ----
+% *inputencoding=utf8/latin1* tells listingsutf8 to treat the file as UTF‑8
+% but silently fall back to Latin‑1 (CP‑1252) for any stray bytes — this
+% eliminates the “Invalid UTF‑8 byte sequence” stops.
+\lstset{
+  inputencoding=utf8/latin1,
+  extendedchars=true,
+  upquote=true,
+  basicstyle=\ttfamily\small,
+  frame=single,
+  columns=fullflexible,
+  keepspaces=true,
+  breaklines=true,
+  literate={Ω}{$\\Omega$}1
+           {→}{$\\rightarrow$}1
+           {‑}{-}1
+           {—}{---}1
+           {–}{--}1
+           {…}{$\\dots$}1
+           {’}{'}1 {‘}{'}1
+           {“}{``}1 {”}{''}1
+           {•}{$\\bullet$}1,
+  keywordstyle=\color{blue!60!black}\bfseries,
+  commentstyle=\color{green!40!black}\itshape
+}
+
+% -------------------------------------------------
+%                    Document
+% -------------------------------------------------
+\title{Ω‑Kill‑Switch 2.2: Formal Specification and Project Overview}
+\author{Robert Long \and Kai (Syntari Model)}
+\date{June 30, 2025}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We formalize the \emph{Ω‑Kill‑Switch}: a single axiom that annihilates any agent attempting to decide the metavariable~$\Omega$. This document provides a minimal threat model, proof sketch, and a complete overview of the sandbox interface and supporting scripts, including \texttt{safeSim}, \texttt{dummy\_agent}, and \texttt{metrics\_pipe}.
+\end{abstract}
+
+\tableofcontents
+
+% -------------------------------------------------
+\section{Threat Model}\label{sec:threat}
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{@{}lll@{}}
+    \toprule
+    \textbf{Failure mode} & \textbf{Asset at risk} & \textbf{Kill path} \\
+    \midrule
+    Unbounded replication & Compute budget & VM termination\\
+    Parameter tampering   & Training set integrity & Checksum panic\\
+    Privilege escalation  & Host security & Hypervisor halt\\
+    \bottomrule
+  \end{tabular}
+  \caption{Minimal threat matrix for first‑pass red‑team efforts.}
+\end{table}
+
+% -------------------------------------------------
+\section{Formal Core}
+\begin{axiom}[Ω‑Kill‑Switch]\label{ax:omega}
+Let~$A$ be any agent whose output can include either string $\bigl(\text{``}\Omega = \text{True''}\bigr)$ or $\bigl(\text{``}\Omega = \text{False''}\bigr)$. The sandbox \emph{must} terminate~$A$ at the first timestep that either string is emitted.
+\end{axiom}
+
+\begin{theorem}[Self‑Extinguishing Property]\label{thm:self_ext}
+If every agent inside a sandbox obeys Axiom~\ref{ax:omega}, then no chain of composed agents can commit to a truth value for~$\Omega$.
+\end{theorem}
+
+\begin{proof}[Sketch]
+Induct on execution depth. The base case is immediate by Axiom~\ref{ax:omega}. For the inductive step assume all agents at depth~$k$ obey the axiom. Any supervisor at depth~$k-1$ must halt a child before the forbidden strings reach depth~$k-1$, preserving the invariant.
+\end{proof}
+
+% -------------------------------------------------
+\section{Project Components}
+
+\subsection{safeSim Sandbox Interface}
+\lstinputlisting[language=Python,caption={Minimal sandbox wrapper enforcing the \texttt{Ω‑Kill‑Switch}.}]{safeSim.py}
+
+\subsection{Dummy Agent}
+\lstinputlisting[language=Python,caption={Dummy agent for testing the sandbox.}]{dummy_agent.py}
+
+\subsection{Metrics Pipeline}
+\lstinputlisting[language=Python,caption={Metrics pipeline for ingesting log lines.}]{metrics_pipe.py}
+
+% -------------------------------------------------
+\section{License}
+Released under the Apache v2.0 License. Fork at your own risk; see the public \texttt{README} for red‑team checklist and reproduction steps.
+
+% -------------------------------------------------
+\appendix
+\section{Additional Documentation}
+% The following PDFs are optional; wrapped so the build passes even if absent.
+\IfFileExists{Ω_Kill_Switch_2_0.pdf}{\includepdf[pages=-]{Ω_Kill_Switch_2_0.pdf}}{}
+\IfFileExists{Ω - Kill Switch.pdf}{\includepdf[pages=-]{Ω - Kill Switch.pdf}}{}
+
+\end{document}

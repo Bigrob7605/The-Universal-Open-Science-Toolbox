@@ -1,0 +1,20 @@
+{
+  "genesis": "GENESIS_BLOCK",
+  "records": [
+    {
+      "mmh_id": "c1c8ff43531ab365",
+      "timestamp": "2025-08-05T18:12:48.663405",
+      "verification_hash": "a11fd52409311b5044a29e6d6fc7d053b9a5c8e027385d15a378dc3d79e645ab"
+    },
+    {
+      "mmh_id": "c8e53e828a1e5ae4",
+      "timestamp": "2025-08-05T18:12:48.664349",
+      "verification_hash": "34a324f23463bd713ed2878bf43dfdd2ce41b88b1614241cfaead176ec2f1cf3"
+    },
+    {
+      "mmh_id": "c4e3960c7207a000",
+      "timestamp": "2025-08-05T18:12:48.665179",
+      "verification_hash": "bb96f207585158389e473ba2ffc014682520d46a69685d926db6a4a56af70324"
+    }
+  ]
+}

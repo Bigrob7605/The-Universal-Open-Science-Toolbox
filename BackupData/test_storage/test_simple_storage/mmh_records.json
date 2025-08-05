@@ -1,0 +1,80 @@
+{
+  "cf3e6a76e2e88196": {
+    "mmh_id": "cf3e6a76e2e88196",
+    "timestamp": "2025-08-05T17:28:12.736025",
+    "record_type": "test_result",
+    "content_hash": "1d02ab73fa238129a816a792ac981cecce9e9a8c78fcc2789c802b75e9a56921",
+    "content_data": {
+      "test_name": "simple_test",
+      "input_data": {
+        "value": 42
+      },
+      "parameters": {
+        "method": "simple"
+      },
+      "results": {
+        "output": 84
+      },
+      "environment": {
+        "python_version": "3.13.5",
+        "dependencies": [
+          "numpy"
+        ],
+        "random_seed": 123
+      }
+    },
+    "content_size": 165,
+    "signature": "7796fdef8de4bcbadb119a0ad08fe32dbf5f22d22485d064aed20512d9e4f51a",
+    "verification_hash": "6b8a060c54002ab4cd097043d368a15fc21f14d7963a77dda5b20fea6e4e2aa8",
+    "chain_hash": "GENESIS",
+    "tags": [
+      "simple",
+      "test"
+    ],
+    "description": "Simple test record",
+    "author": "Kai Core System",
+    "version": "1.0.0",
+    "domain": "test",
+    "test_name": "simple_test",
+    "reproducibility_score": 0.9999999999999999
+  },
+  "e47fc53b7be0a598": {
+    "mmh_id": "e47fc53b7be0a598",
+    "timestamp": "2025-08-05T17:31:52.774619",
+    "record_type": "test_result",
+    "content_hash": "9b00d5bad8f1318a8be211aeaa12d1c795d4c267ded99c9881d770a148f08a84",
+    "content_data": {
+      "test_name": "simple_test",
+      "input_data": {
+        "value": 42
+      },
+      "parameters": {
+        "method": "simple"
+      },
+      "results": {
+        "output": 84
+      },
+      "environment": {
+        "python_version": "3.13.5",
+        "dependencies": [
+          "numpy"
+        ],
+        "random_seed": 123
+      }
+    },
+    "content_size": 165,
+    "signature": "499adb855c1fdef71dcb541e6b49f1aa3c17420cd216f6b2d1e320266960d270",
+    "verification_hash": "3002c0a267231af865c8f4ac0843331f078abd4c83c4cdb64019a33a147f57e6",
+    "chain_hash": "6b8a060c54002ab4cd097043d368a15fc21f14d7963a77dda5b20fea6e4e2aa8",
+    "tags": [
+      "simple",
+      "test"
+    ],
+    "description": "Simple test record",
+    "author": "Kai Core System",
+    "version": "1.0.0",
+    "domain": "test",
+    "test_name": "simple_test",
+    "reproducibility_score": 0.9999999999999999
+  }
+}

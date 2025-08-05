@@ -1,0 +1,10 @@
+{
+  "genesis": "GENESIS_BLOCK",
+  "records": [
+    {
+      "mmh_id": "e87c390882088629",
+      "timestamp": "2025-08-05T17:35:44.585049",
+      "verification_hash": "6157c1cd1e87264d2055365632b2a7adbe16e49a189eecbffe2e795dab9e6779"
+    }
+  ]
+}

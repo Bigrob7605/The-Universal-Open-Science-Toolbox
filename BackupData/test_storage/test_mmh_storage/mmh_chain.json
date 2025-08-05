@@ -1,0 +1,25 @@
+{
+  "genesis": "GENESIS_BLOCK",
+  "records": [
+    {
+      "mmh_id": "7bfb2892957f3c99",
+      "timestamp": "2025-08-05T17:23:30.533379",
+      "verification_hash": "f75bef9b2efeb81f77212fceed98ab567a2434190ce68ab1dd0bb4588e94848f"
+    },
+    {
+      "mmh_id": "db54c90aac2e7e46",
+      "timestamp": "2025-08-05T17:23:30.556232",
+      "verification_hash": "55d2773e683bf627856abcba495a48b4cdbbedac2a6fec5adaa9747380c23bbe"
+    },
+    {
+      "mmh_id": "88e12059307d1b8b",
+      "timestamp": "2025-08-05T17:23:30.623945",
+      "verification_hash": "22db48e461b06598087c67f6faeefc1e7b5efec12ff50fdd0d7a0d58473c56cc"
+    },
+    {
+      "mmh_id": "643268e39a6d06e3",
+      "timestamp": "2025-08-05T17:23:30.628686",
+      "verification_hash": "1091a74b73ef04dc1f761654b4fd683fc2832c10c2334f8d2079593449acd235"
+    }
+  ]
+}
