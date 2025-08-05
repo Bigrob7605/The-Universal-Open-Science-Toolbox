@@ -34,6 +34,14 @@ from pathlib import Path
 from typing import Dict, Any, List, Optional, Callable
 warnings.filterwarnings('ignore')
 
+# Omega Kill Switch Integration
+try:
+    from security.agent_security_testing import security_monitor, AgentSecurityTester
+    OMEGA_KILL_SWITCH_AVAILABLE = True
+except ImportError:
+    OMEGA_KILL_SWITCH_AVAILABLE = False
+    print("Warning: Omega Kill Switch not available. Running without security protection.")
+
 # ======================================================================
 # 1. UNIVERSAL PIPELINE FRAMEWORK
 # ======================================================================
@@ -63,8 +71,28 @@ class ImmutableRegistry:
         """Create immutable hash of results with timestamp"""
         timestamp = datetime.utcnow().isoformat()
         
+        # Convert numpy types to JSON-serializable types
+        def convert_numpy_types(obj):
+            if isinstance(obj, np.ndarray):
+                return obj.tolist()
+            elif isinstance(obj, np.integer):
+                return int(obj)
+            elif isinstance(obj, np.floating):
+                return float(obj)
+            elif isinstance(obj, np.bool_):
+                return bool(obj)
+            elif isinstance(obj, dict):
+                return {k: convert_numpy_types(v) for k, v in obj.items()}
+            elif isinstance(obj, list):
+                return [convert_numpy_types(item) for item in obj]
+            else:
+                return obj
+        
+        # Convert the result dict
+        serializable_result = convert_numpy_types(result_dict)
+        
         # Create deterministic JSON string (sorted keys)
-        result_str = json.dumps(result_dict, sort_keys=True, separators=(',', ':'))
+        result_str = json.dumps(serializable_result, sort_keys=True, separators=(',', ':'))
         
         # Create hash with timestamp and previous hash for chain integrity
         previous_hash = self.registry[-1]["hash"] if self.registry else "GENESIS"
@@ -74,7 +102,7 @@ class ImmutableRegistry:
         registry_entry = {
             "hash": hash_id,
             "timestamp": timestamp,
-            "result": result_dict,
+            "result": serializable_result,
             "previous_hash": previous_hash,
             "version": "1.0.0"
         }
@@ -131,6 +159,10 @@ class BulletproofPipeline:
         self.start_time = datetime.now()
         self.registry = ImmutableRegistry()
         self.hero_points = 0  # Hero point system for future gamification
+        self.test_functions = {}
+        
+        # Load all available test functions
+        self._load_all_test_functions()
         
         # Initialize logging
         self._log_event("PIPELINE_START", {
@@ -139,6 +171,45 @@ class BulletproofPipeline:
             "python_version": sys.version,
             "numpy_version": np.__version__
         })
+    
+    def _load_all_test_functions(self):
+        """Load all available test functions from universal and domain modules"""
+        try:
+            # Load universal test functions
+            from test_suite.universal_test_functions import AVAILABLE_TESTS
+            self.test_functions.update(AVAILABLE_TESTS)
+            
+            # Load domain-specific test functions
+            domain_modules = ['physics', 'bio', 'climate', 'seismology']
+            for domain in domain_modules:
+                try:
+                    module = __import__(f'domain.{domain}', fromlist=['*'])
+                    if hasattr(module, f'{domain.upper()}_TESTS'):
+                        domain_tests = getattr(module, f'{domain.upper()}_TESTS')
+                        self.test_functions.update(domain_tests)
+                        self._log_event("DOMAIN_LOADED", {
+                            "domain": domain,
+                            "tests_loaded": len(domain_tests)
+                        })
+                except ImportError as e:
+                    self._log_event("DOMAIN_LOAD_ERROR", {
+                        "domain": domain,
+                        "error": str(e)
+                    })
+                except Exception as e:
+                    self._log_event("DOMAIN_LOAD_ERROR", {
+                        "domain": domain,
+                        "error": str(e)
+                    })
+            
+            self._log_event("TEST_FUNCTIONS_LOADED", {
+                "total_tests": len(self.test_functions)
+            })
+            
+        except Exception as e:
+            self._log_event("TEST_LOAD_ERROR", {"error": str(e)})
+            # Fallback to basic tests
+            self.test_functions = {}
     
     def _log_event(self, event_type: str, data: Dict[str, Any]):
         """Log an event with timestamp and data"""
@@ -284,12 +355,41 @@ class BulletproofPipeline:
                 "kwargs": kwargs
             })
             
-            test_info = self.test_functions[test_name]
-            test_func = test_info["function"]
+            # Get test function (handle both direct functions and dict format)
+            test_func = self.test_functions[test_name]
+            if isinstance(test_func, dict):
+                test_func = test_func["function"]
             
-            # Run the test
+            # Select appropriate test data
+            test_data = self._select_test_data(test_name)
+            
+            # Run the test with Omega Kill Switch protection
             start_time = time.time()
-            result = test_func(self.data, **kwargs)
+            
+            if OMEGA_KILL_SWITCH_AVAILABLE:
+                # Test the function for security violations before execution
+                security_tester = AgentSecurityTester()
+                security_result = security_tester.test_agent_function(test_func, test_data, **kwargs)
+                
+                if not security_result["passed"]:
+                    self._log_event("SECURITY_VIOLATION", {
+                        "test_name": test_name,
+                        "violations": security_result.get("source_analysis", {}).get("violations", []),
+                        "suspicious_patterns": security_result.get("source_analysis", {}).get("suspicious_patterns", [])
+                    })
+                    return {
+                        "test_name": test_name,
+                        "error": "SECURITY_VIOLATION: Test function contains forbidden patterns",
+                        "security_violations": security_result.get("source_analysis", {}).get("violations", []),
+                        "timestamp": datetime.now().isoformat()
+                    }
+                
+                # Execute the function safely
+                result = test_func(test_data, **kwargs)
+            else:
+                # Fallback to direct execution if Omega Kill Switch not available
+                result = test_func(test_data, **kwargs)
+            
             end_time = time.time()
             
             # Generate truth table
@@ -326,6 +426,50 @@ class BulletproofPipeline:
             })
             
             return error_result
+    
+    def _select_test_data(self, test_name: str) -> np.ndarray:
+        """Select appropriate sample data for the given test"""
+        # Map test names to appropriate data
+        data_mapping = {
+            # Universal tests
+            'basic_statistical_analysis': 'statistical_data',
+            'correlation_analysis': 'statistical_data',
+            'dimensionality_analysis': 'statistical_data',
+            'clustering_analysis': 'clustering_data',
+            'signal_detection_test': 'signal_data',
+            'periodicity_test': 'signal_data',
+            'custom_test_template': 'statistical_data',
+            
+            # Physics tests
+            'ligo_strain_analysis': 'physics_data',
+            'particle_physics_analysis': 'statistical_data',
+            'cosmology_analysis': 'statistical_data',
+            
+            # Biology tests
+            'enzyme_sequence_analysis': 'bio_data',
+            'enzyme_structure_validation': 'bio_data',
+            'enzyme_mutation_analysis': 'bio_data',
+            'enzyme_activity_prediction': 'bio_data',
+            
+            # Climate tests
+            'climate_trend_analysis': 'climate_data',
+            'climate_change_detection': 'climate_data',
+            'seasonal_climate_analysis': 'climate_data',
+            
+            # Seismology tests
+            'heat_warning_correlation_index': 'seismology_data',
+            'stress_perturbation_analysis': 'seismology_data',
+            'seismic_modulator_analysis': 'seismology_data'
+        }
+        
+        # Get the appropriate data attribute
+        data_attr = data_mapping.get(test_name, 'statistical_data')
+        
+        if hasattr(self, data_attr):
+            return getattr(self, data_attr)
+        else:
+            # Fallback to basic statistical data
+            return getattr(self, 'statistical_data', np.random.normal(0, 1, (100, 3)))
     
     def _generate_truth_table(self, result: Any, test_name: str) -> Dict[str, Any]:
         """Generate a truth table from test results"""
@@ -618,6 +762,9 @@ class BulletproofPipeline:
         print("🔬 Universal Open Science Toolbox - Bulletproof Test Battery")
         print("=" * 70)
         
+        # Create sample data for testing
+        self._create_sample_data()
+        
         # Run all available tests
         results = self.run_batch_tests()
         print(f"✅ Completed {len(results)} tests")
@@ -635,6 +782,72 @@ class BulletproofPipeline:
         print(f"🏆 Hero Points: {self.hero_points}")
         
         return results, result_hash
+    
+    def _create_sample_data(self):
+        """Create sample data for comprehensive testing"""
+        try:
+            # Create diverse sample datasets for different test types
+            np.random.seed(42)  # For reproducibility
+            
+            # Statistical analysis data
+            self.statistical_data = np.random.normal(0, 1, (1000, 5))
+            
+            # Signal processing data (time series)
+            t = np.linspace(0, 10, 1000)
+            signal = 3 * np.sin(2 * np.pi * 2 * t) + 2 * np.sin(2 * np.pi * 5 * t)
+            noise = np.random.normal(0, 0.5, 1000)
+            self.signal_data = signal + noise
+            
+            # Clustering data
+            cluster1 = np.random.normal(0, 1, (200, 2))
+            cluster2 = np.random.normal(5, 1, (200, 2))
+            cluster3 = np.random.normal([0, 5], 1, (200, 2))
+            self.clustering_data = np.vstack([cluster1, cluster2, cluster3])
+            
+            # Physics data (LIGO-like strain)
+            self.physics_data = np.random.normal(0, 1e-21, 4096)  # LIGO strain-like
+            
+            # Biology data (enzyme sequences) - create FASTA-like format
+            amino_acids = "ACDEFGHIKLMNPQRSTVWY"
+            self.bio_data = []
+            for i in range(10):
+                sequence = ''.join(np.random.choice(list(amino_acids), 50))
+                self.bio_data.append(f">enzyme_{i}\n{sequence}")
+            self.bio_data = '\n'.join(self.bio_data)
+            
+            # Climate data (temperature time series)
+            t_climate = np.linspace(0, 100, 1000)
+            trend = 0.01 * t_climate  # Warming trend
+            seasonal = 5 * np.sin(2 * np.pi * t_climate / 365)  # Seasonal variation
+            noise_climate = np.random.normal(0, 2, 1000)
+            self.climate_data = trend + seasonal + noise_climate
+            
+            # Seismology data - create proper format with 4-5 columns
+            # [time, temperature, pressure, humidity, seismic_activity]
+            time = np.linspace(0, 100, 500)
+            temperature = 25 + 10 * np.sin(2 * np.pi * time / 24) + np.random.normal(0, 2, 500)
+            pressure = 1013 + 50 * np.sin(2 * np.pi * time / 12) + np.random.normal(0, 5, 500)
+            humidity = 60 + 20 * np.sin(2 * np.pi * time / 48) + np.random.normal(0, 10, 500)
+            seismic_activity = np.random.normal(0, 1, 500)
+            
+            self.seismology_data = np.column_stack([
+                time, temperature, pressure, humidity, seismic_activity
+            ])
+            
+            self._log_event("SAMPLE_DATA_CREATED", {
+                "statistical_shape": self.statistical_data.shape,
+                "signal_length": len(self.signal_data),
+                "clustering_shape": self.clustering_data.shape,
+                "physics_length": len(self.physics_data),
+                "bio_shape": self.bio_data.shape,
+                "climate_length": len(self.climate_data),
+                "seismology_shape": self.seismology_data.shape
+            })
+            
+        except Exception as e:
+            self._log_event("SAMPLE_DATA_ERROR", {"error": str(e)})
+            # Fallback to basic data
+            self.statistical_data = np.random.normal(0, 1, (100, 3))
 
 # ======================================================================
 # 2. COMMAND LINE INTERFACE
