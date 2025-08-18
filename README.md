@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Universal Open Science Toolbox
 
 ![Version](https://img.shields.io/badge/Release-1.0.0-green)
